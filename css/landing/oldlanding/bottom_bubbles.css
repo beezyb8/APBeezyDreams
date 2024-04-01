@@ -1,0 +1,140 @@
+.bottom_target_container{
+  padding: 20px;
+  background-color: #ebebeb;
+}
+
+.bottom_target_header{
+    color: #414141;
+    text-align: center;
+    font-size: 25px;
+    font-weight: bold;
+    text-decoration: underline;
+    margin-bottom: 50px;
+    /* margin-top: 0px; */
+}
+
+.bottom_body_cont{
+    text-align: center;
+}
+
+.full_bubble{
+    background-color: #7391ba;
+    width: -webkit-fill-available-;
+    color: white;
+    border-radius: 5px;
+}
+
+.inner_full_bubble{
+    background-color: #b8b8b8;
+    margin: 30px 100px;
+    border-radius: 10px;
+    /* padding-top: 30px; */
+    /* padding-bottom: 30px; */
+    /* padding-left: 1; */
+}
+
+.full_bubble_title{
+  color: white;
+  margin: 0px;
+  padding: 5px 0px 10px;
+  font-size: 20px;
+  text-decoration: underline;
+}
+
+.bp_cont,
+.vibe_cont, 
+.anc_cont{
+    width: 90%;
+    margin: 0 auto;
+    /* background-color: white; */
+    /* box-shadow: 0px 0px 5px; */
+    /* padding-bottom: 30px; */
+    /* margin-bottom: 30px; */
+}
+
+
+.new_split_flexes{
+  display: flex;
+}
+
+.vibe_stuff_cont,
+.bp_stuff_cont,
+.nwork_stuff_cont,
+.wu_stuff_cont{
+  display: block;
+  flex: .5;
+  text-align: left;
+  border: 1px solid white;
+  padding: 10px 50px 70px;
+  /* margin: 10px 100px; */
+}
+
+
+
+.vibe_written,
+.nwork_written,
+.bp_bub_written,
+.wu_bub_written{
+    /* padding: 20px 30px 0px 0px; */
+    font-size: 20px;
+    /* margin-top: 100px; */
+    /* margin-right: 150px; */
+    display: inline-block;
+    text-align: center;
+}
+
+
+
+.vibe_written>h4,
+.nwork_written>h4,
+.bp_bub_written>h4,
+.wu_bub_written>h4{
+ /* text-decoration: underline; */
+ font-size: 22px;
+ margin: 0px;
+ color: black;
+ font-weight: bold;
+ /* margin-left: 20px; */
+}
+
+.vibe_written>p,
+.nwork_written>p,
+.bp_bub_written>p,
+.wu_bub_written>p{font-size: 18px;margin: 5px 0px;color: black;}
+
+
+
+.vibe_stuff_cont:hover,
+.bp_stuff_cont:hover,
+.nwork_stuff_cont:hover,
+.wu_stuff_cont:hover{
+    cursor: pointer;
+    background-color: #7391ba;
+    transition: 2s background-color;
+
+}
+
+    
+
+
+
+@media(max-width: 440px){
+    .cont_body{
+        margin: 0px;
+    }
+    .anc_date{
+        display: block;
+        float: none;
+    }
+}
+
+
+@media(max-width: 440px){
+    .cont_body{
+        margin: 0px;
+    }
+    .anc_date{
+        display: block;
+        float: none;
+    }
+}

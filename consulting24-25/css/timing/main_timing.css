@@ -1,0 +1,243 @@
+@keyframes slideUp{
+    from{
+        transform: translateY(400px);
+    }
+    to{
+        transform: translateY(0);
+    }
+    
+}
+
+.display_nav{
+    display: block;
+    margin-top: 78px;
+    overflow-x: hidden;
+}
+
+.add_info_cont{
+    padding-left: 6%;
+}
+
+.add_info_cont p{
+    font-size: 18px;
+}
+
+.section_title_cont{
+    display: flex;
+    justify-content: space-between;
+    width: -webkit-fill-available;
+    padding-left: 6%;
+    padding-right: 6%;
+}
+
+
+.section_title{
+    margin: 0px;
+    /* text-align: center; */
+    font-size: 25px;
+    color: #434343;
+    /* padding-left: 6%; */
+}
+
+.saved_selector_cont{
+    align-items: center;
+    color: #434343;
+}
+
+.saved_selector_cont select{
+    padding: 5px;
+    font-size: 16px;
+    border-radius: 10px;
+}
+
+.app_tile_holder{
+    /* padding-left: 20px; */
+    /* padding-right: 25px; */
+    display: flex;
+    padding-top: 10px;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: flex-start;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+.tile_container{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    flex-basis: 50%;
+    background-color: #efefef;
+    padding: 5px 20px;
+    border-radius: 20px;
+    margin-right: 20px;
+    box-shadow: 0 0 7px rgb(122 122 122);
+    transition: background-color .5s ease-in-out;
+    max-width: 255px;
+    margin-top: 15px;
+    border: 1px solid black;
+}
+
+.tile_container:hover{
+    background-color: #dadada;
+}
+
+.tile_header {
+    display: flex;
+    justify-content: space-between; /* Add this line */
+    align-items: center;
+}
+
+.tile_firm_name {
+    display: inline-block;
+    margin: 0px;
+}
+
+.tile_app_checker {
+    display: inline-block;
+    order: 1; /* Add this line */
+    width: auto;
+}
+
+.tile_link_name a{
+    color: black;
+    text-decoration: none;
+}
+
+.tile_date{
+    text-align: right;
+}
+
+.tile_logo_checker_cont {
+    display: flex;
+    justify-content: space-between;
+    align-items: center; /* Align the image to the top */
+    height: 60px;
+}
+
+.tile_logo_checker_cont .tile_image_container {
+    display: flex;
+    align-items: flex-start;
+}
+
+.tile_logo_checker_cont .tile_input_container {
+    display: flex;
+    align-items: flex-end; /* Align the input to the bottom (right) */
+}
+
+.tile_logo_checker_cont img {
+    max-width: 75px; /* Adjust the maximum width as needed */
+    min-height: 30px; /* Adjust the height as needed */
+    max-height: 40px;
+    object-fit: contain;
+}
+
+#app_location{
+    padding: 0px 0px 5px 0px;
+    margin: 10px 0px 2px;
+    font-size: 18px;
+    display: inline-block;
+}
+
+#app_location_selector{
+    background-color: white;
+    padding: 5px 10px;
+}
+
+.tile_link_box{
+    margin: 7.5px 0px;
+}
+
+.tile_link_box:hover{
+    cursor: pointer;
+}
+
+.app_location_selector option{
+    padding: 10px;
+}
+
+.tile_link_name{
+    font-size: 14px;
+}
+.tile_location_date{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 5px;
+    font-size: 14px;
+}
+
+.tile_location{
+    color: black;
+}
+
+.tile_date{
+    flex-order: 1;
+}
+
+.tile_link_for_add_only{
+    display: none;
+}
+
+#add_app:hover{
+    cursor: pointer;
+}
+
+
+
+
+
+#apps{
+    margin: 00px 0px;
+    position: relative;
+    left: 56%;
+}
+
+.bodycont{
+    margin-top: 0px;
+    animation: slideUp 1.2s ease-in-out;
+}
+
+.header{
+    text-align: center;
+}
+
+.contcont_body{
+    margin: 0px;
+    /* background-color: #ededed; */
+}
+
+.cont_body{
+    /* background-image: linear-gradient(to bottom,white,#e6e4e4); */
+    align-items: center;
+    /* box-shadow: 0 0 100px rgb(40 39 39 / 100%); */
+    padding: 5px;
+    /* padding-top: 20px; */
+    overflow-x: scroll;
+    padding-bottom: 60px;
+    /* background-color: #fbfbfb; */
+    border-radius: 10px;
+    /* margin-top: 30px; */
+    /* box-shadow: 0 0 5px rgb(122 122 122); */
+    padding-top: 20px;
+}
+
+.section_cont{
+    /* background-color: white; */
+    /* margin-left: 10px; */
+    /* margin-right: 10px; */
+    /* border-radius: 40px; */
+    /* box-shadow: 0 0 10px #4e72a2; */
+    /* padding-top: 10px; */
+    /* padding-bottom: 10px; */
+    margin-bottom: 40px;
+}
+
+.app_tile_holder{
+    border: 1px solid white;
+    border-radius: 15px;
+    /* padding-left: 10px; */
+    /* padding-right: 10px; */
+    padding-bottom: 10px;
+    margin-top: 12px;
+    background-color: gainsboro;
+}

@@ -1,0 +1,334 @@
+.bodycont{
+    justify-content: center;
+    margin: auto;
+    /* width: 95%; */
+    box-shadow: 0 0 100px rgb(40 39 39 / 100%);
+    background-color:white;
+    padding-bottom: 30px;
+    margin-left: 25px;
+    margin-right: 25px;
+}
+
+.header{
+    padding: 10px 50px;
+    border-bottom: 5px solid #244f89;
+    padding-bottom: 5px;
+    background-color: white;
+}
+
+.header>h1{
+    margin-top: 5px;
+    text-align: center;
+    color: #244f89;
+    text-decoration: underline;
+    margin-bottom: 0px;
+}
+
+.header>p{
+    font-size: 18px;
+    margin-top: 10px;
+    margin-bottom: 0px;
+    text-align: center;
+    color: black;
+}
+
+.pagelinks{
+    justify-content: center;
+    margin: 0 auto;
+    text-align: center;
+    height: 125px;
+    position: relative;
+    align-items: center;
+}
+
+.pagelinks_cont{
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    padding: 0px;
+    width: 100%;
+    height: 100%;
+}
+
+.pagelinks_cont > .changecont {
+    display: flex;
+    text-align: center;
+    border-left: 2px solid #244f89;
+    border-right: 2px solid #244f89;
+    border-bottom: 4px solid #244f89;
+    padding-left: 5px;
+    padding-right: 5px;
+    margin: 0px;
+    width: 100%;
+    height: 98%;
+    position: relative;
+    top: 0;
+}
+
+.sectiontab{
+    vertical-align: middle;
+    margin: auto;
+    font-size: 18px;
+}
+
+#gennw{
+    color: #244f89;
+    background-color: gainsboro;
+    border-left: 0px solid #244f89;
+    font-weight: bold;
+}
+
+#gennw:hover{
+    color: black;
+    font-weight: bold;
+    text-decoration: underline;
+    cursor:grab;
+    background-color: rgb(119, 21, 21);
+}
+
+#sendemails{
+    color: #244f89;
+    background-color: gainsboro;
+    font-weight: bold;
+}
+
+#sendemails:hover{
+    color: black;
+    font-weight: bold;
+    text-decoration: underline;
+    cursor:grab;
+    background-color: rgb(124, 89, 24);
+}
+
+#compres{
+    color: #244f89;
+    background-color: gainsboro;
+    font-weight: bold;
+}
+
+#compres:hover{
+    color: black;
+    font-weight: bold;
+    text-decoration: underline;
+    cursor:grab;
+    background-color:rgb(130, 101, 47);
+}
+
+#behav{
+    color: #244f89;
+    background-color: gainsboro;
+    font-weight: bold;
+}
+
+#behav:hover{
+    color: black;
+    font-weight: bold;
+    text-decoration: underline;
+    cursor:grab;
+    background-color: rgb(162, 162, 56);
+}
+
+#techint{
+    color: #244f89;
+    background-color: gainsboro;
+    font-weight: bold;
+}
+
+#techint:hover{
+    color: black;
+    font-weight: bold;
+    text-decoration: underline;
+    cursor:grab;
+    background-color:  rgb(151, 135, 27);
+}
+
+#formats{
+    color: #244f89;
+    background-color: gainsboro;
+    border-right: 0px solid #244f89;
+    font-weight: bold;
+}
+
+#formats:hover{
+    color: black;
+    font-weight: bold;
+    text-decoration: underline;
+    cursor: grab;
+    background-color: rgb(48, 91, 48);
+}
+
+.get_start{
+    padding: 25px;
+    font-size: 15px;
+    background-color: white;
+}
+
+.get_start>p{
+    font-size: 18px;
+    margin-top: 5px;
+}
+
+.get_start>ol>li{
+    font-size: 18px;
+    margin-top: 5px;
+}
+
+.get_start>h3{
+    font-size: 18px;
+    margin-bottom: 5px;
+}
+
+.gennwcont{
+    display: none;
+    padding: 25px;
+    font-size: 15px;
+    background-color: white;
+}
+
+.gennwcont>p{
+    font-size: 18px;
+    margin-top: 5px;
+}
+
+.gennwcont>h3{
+    font-size: 18px;
+    margin-bottom: 5px;
+}
+
+.send_emails{
+    display: none;
+    padding: 25px;
+    font-size: 15px;
+    background-color: white;
+}
+
+.send_emails>p{
+    font-size: 18px;
+    margin-top: 5px;
+}
+
+.send_emails>h3{
+    font-size: 18px;
+    margin-bottom: 5px;
+}
+
+.comp_pres{
+    display: none;
+    padding: 25px;
+    font-size: 15px;
+    background-color: white;
+}
+
+.comp_pres>p{
+    font-size: 18px;
+    margin-top: 5px;
+}
+
+.comp_pres>h3{
+    font-size: 18px;
+    margin-bottom: 5px;
+}
+
+.tech_int{
+    display: none;
+    padding: 25px;
+    font-size: 15px;
+    background-color: white;
+}
+
+.tech_int>p{
+    font-size: 18px;
+    margin-top: 5px;
+}
+
+.tech_int>h3{
+    font-size: 18px;
+    margin-bottom: 5px;
+}
+
+.behav_int{
+    display: none;
+    padding: 25px;
+    font-size: 15px;
+    background-color: white;
+}
+
+.behav_int>p{
+    font-size: 18px;
+    margin-top: 5px;
+}
+
+.behav_int>h3{
+    font-size: 18px;
+    margin-bottom: 5px;
+}
+
+.temps{
+    display: none;
+    padding: 25px;
+    font-size: 15px;
+    background-color: white;
+}
+
+.temps>p{
+    font-size: 18px;
+    margin-top: 5px;
+}
+
+.best{
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+}
+
+.temps>h3{
+    font-size: 18px;
+    margin-bottom: 5px;
+}
+
+.temps>h4{
+    font-size: 18px;
+    margin-bottom: 5px;
+}
+
+.temps>ul>li{
+    font-size: 18px;
+    margin-bottom: 5px;
+}
+
+.section_header{
+    display: block;
+    text-align: center;
+}
+
+
+/* Media Edit Nav Bar */
+@media(max-width: 1050px){
+    .header{
+        padding: 10px 0px;
+    }
+    .pagelinks{
+        margin-right: 10px;
+        height: 50px;
+    }
+    .pagelinks_cont{
+        display: block;
+    }
+    .pagelinks_cont > .changecont {
+        border-left: none;
+        border-right: none;
+    }
+    .changecont{
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+    .text_cont{
+        margin-top: 350px;
+    }
+
+}
+
+@media(max-width: 550px){
+    .bodycont{
+        width: 90%;
+    }
+}

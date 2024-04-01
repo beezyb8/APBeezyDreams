@@ -1,0 +1,17 @@
+[11-Jan-2024 10:22:05 America/Chicago] PHP Warning:  Undefined array key "user_id" in /home2/mylegupc/public_html/banking23-24/ajax/allcontacts/contact_view_modal.php on line 19
+[11-Jan-2024 21:22:29 America/Chicago] PHP Warning:  Undefined array key "user_id" in /home2/mylegupc/public_html/banking23-24/ajax/allcontacts/contact_view_modal.php on line 19
+[12-Jan-2024 00:10:59 America/Chicago] PHP Warning:  Undefined array key "user_id" in /home2/mylegupc/public_html/banking23-24/ajax/allcontacts/contact_view_modal.php on line 19
+[12-Jan-2024 15:01:46 America/Chicago] PHP Warning:  Undefined array key "user_id" in /home2/mylegupc/public_html/banking23-24/ajax/allcontacts/contact_view_modal.php on line 19
+[16-Jan-2024 14:58:02 America/Chicago] PHP Warning:  Undefined array key "user_id" in /home2/mylegupc/public_html/banking23-24/ajax/allcontacts/contact_view_modal.php on line 19
+[17-Jan-2024 12:21:32 America/Chicago] PHP Warning:  Undefined array key "user_id" in /home2/mylegupc/public_html/banking23-24/ajax/allcontacts/contact_view_modal.php on line 19
+[17-Jan-2024 14:39:25 America/Chicago] PHP Warning:  Undefined array key "user_id" in /home2/mylegupc/public_html/banking23-24/ajax/allcontacts/contact_view_modal.php on line 19
+[18-Jan-2024 09:04:56 America/Chicago] PHP Warning:  Undefined array key "user_id" in /home2/mylegupc/public_html/banking23-24/ajax/allcontacts/contact_view_modal.php on line 19
+[20-Jan-2024 14:04:26 America/Chicago] PHP Warning:  Undefined array key "user_id" in /home2/mylegupc/public_html/banking23-24/ajax/allcontacts/contact_view_modal.php on line 19
+[24-Jan-2024 18:53:25 America/Chicago] PHP Warning:  Undefined array key "contactname" in /home2/mylegupc/public_html/banking23-24/ajax/allcontacts/updatecontact.php on line 19
+[24-Jan-2024 18:53:25 America/Chicago] PHP Warning:  Undefined array key "contactemail" in /home2/mylegupc/public_html/banking23-24/ajax/allcontacts/updatecontact.php on line 20
+[24-Jan-2024 18:53:25 America/Chicago] PHP Warning:  Undefined array key "contactnumber" in /home2/mylegupc/public_html/banking23-24/ajax/allcontacts/updatecontact.php on line 21
+[24-Jan-2024 18:53:25 America/Chicago] PHP Warning:  Undefined array key "contactconnection" in /home2/mylegupc/public_html/banking23-24/ajax/allcontacts/updatecontact.php on line 22
+[24-Jan-2024 18:53:25 America/Chicago] PHP Warning:  Undefined array key "contactnotes" in /home2/mylegupc/public_html/banking23-24/ajax/allcontacts/updatecontact.php on line 23
+[24-Jan-2024 18:53:25 America/Chicago] PHP Warning:  Trying to access array offset on value of type bool in /home2/mylegupc/public_html/banking23-24/ajax/allcontacts/updatecontact.php on line 33
+[28-Jan-2024 23:54:41 America/Chicago] PHP Warning:  Undefined array key "user_id" in /home2/mylegupc/public_html/banking23-24/ajax/allcontacts/contact_view_modal.php on line 19
+[04-Feb-2024 16:58:20 America/Chicago] PHP Warning:  Undefined array key "user_id" in /home2/mylegupc/public_html/banking23-24/ajax/allcontacts/contact_view_modal.php on line 19

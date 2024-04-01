@@ -1,0 +1,171 @@
+.contactmodal{
+    border: 1px solid black;
+    background-color: white;
+    padding: 10px;
+    margin-top: 5px;
+    display: none;
+}
+
+.nworktable{
+    width: -webkit-fill-available;
+    margin-left: 20px;
+    border-collapse: collapse;
+    border-left: 2px solid black;
+    border-right: 2px solid black;
+    border-top: 2px solid black;
+    background-color: rgb(234, 234, 234);
+    overflow-x: scroll;
+    margin-right: 20px;
+    padding: 10px 0px;
+}
+
+.nworktable>.nworkhead{
+    border-bottom: 3px solid black;
+    width: 100%;
+}
+
+.contact_title{
+    width: 20%;
+}
+
+.notes_tit{
+    width: 60%;
+}
+
+.checkboxhead{
+    margin: 5px 7px;
+}
+
+.contacttitle{
+    text-align: center;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.table_body>tr{
+    border-bottom: 2px solid black;
+}
+
+.table_body>tr>.coldemail,
+.callsched,
+.call,
+.thankyou{
+    text-align: center;
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+}
+
+.notes{
+    text-align: left;
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+    background-color: rgb(234, 234, 234);
+}
+
+.nocontacts{
+    display: inline-block;
+    margin-left: 20px;
+}
+
+.newcontact{
+    margin-left: 20px;
+}
+
+.contactmodal{
+    margin-left: 20px;
+    border-radius: 20px;
+}
+
+#notetextarea{
+    background-color: transparent;
+    width: -webkit-fill-available;
+    border: none;
+    align-self: center;
+    font-family: xkgl-n4, adobe-notdef;
+    font-size: 16px;
+    margin: 5px;
+    resize: none;
+    outline: none;
+    min-height: 0;
+}
+
+#textchangebtn{
+    display: none;
+}
+
+.editct{
+    display: none;
+}
+
+.editcontbtn{
+    background-color: white;
+    border-radius: 10px;
+    border: 1px solid black;
+}
+
+.editcontbtn:hover{
+    font-size: 14px;
+}
+
+.exiteditmode{
+    background-color: white;
+    border-radius: 10px;
+    border: 1px solid black;
+}
+
+#editctnamebtn{
+    background-color: rgb(32, 142, 32);
+    border: 1px solid black;
+    border-radius: 10px;
+    font-weight: bold;
+    margin-top: 5px;
+}
+
+#deletectnamebtn{
+    background-color: rgb(211, 77, 77);
+    border: 1px solid black;
+    border-radius: 10px;
+    font-weight: bold;
+}
+
+.editct{
+    background-color: white;
+    border-radius: 5px;
+    border: 1px solid black;
+}
+
+.colddone{
+    background-color: #ffbf49;
+}
+
+.callscheddone{
+    background-color: #ffff61;
+}
+
+
+.callhaddone{
+    background-color: #f14545;
+}
+
+.thankyoudone{
+    background-color: #1ebb26;
+}
+
+@media(max-width: 500px){
+    .checkboxhead{
+        font-size: 10px;
+    }
+    .notes_tit{
+        font-size: 10px;
+    }
+    .contact_title{
+        font-size: 10px;
+    }
+    #editbtnid{
+        font-size: 10px;
+    }
+    .contacttitle{
+        font-size: 10px;
+    }
+}
+

@@ -1,0 +1,37 @@
+footer{
+    background-color: white;
+    padding: 25px 0px 25px 0px;
+}
+
+.footer_cont{
+    text-align: center;
+}
+
+.foot_logo{
+    width: 300px;
+}
+
+.footer_cont>span{
+    display: block;
+}
+
+.footer_cont>span>a,.footer_cont>span>p{
+    text-decoration: none;
+    color: #244f89;
+    font-size: 15px;
+    padding-top: 2.5px;
+    padding-bottom: 2.5px;
+    margin: 0px;
+    display: inline-block;
+}
+
+.footer_cont>span>a:hover{
+    color: gainsboro;
+    cursor: pointer;
+}
+
+/*.footer_cont>p{*/
+/*    text-decoration: underline;*/
+/*    color: #244f89;*/
+/*    font-size: 22px;*/
+/*}*/

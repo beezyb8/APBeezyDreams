@@ -1,0 +1,349 @@
+/*ToolTip*/
+
+.tooltip {
+  position: relative;
+  display: inline-block;
+  border-bottom: 1px dotted black; /* If you want dots under the hoverable text */
+}
+
+/* Tooltip text */
+.tooltip .tooltiptext {
+  visibility: hidden;
+  width: 120px;
+  background-color: black;
+  color: #fff;
+  text-align: center;
+  padding: 5px 0;
+  border-radius: 6px;
+  bottom: 100%;
+  left: 50%;
+  margin-left: -60px; 
+  /* Position the tooltip text - see examples below! */
+  position: absolute;
+  z-index: 1;
+}
+
+.tooltip:hover{
+    cursor: pointer;
+}
+
+/* Show the tooltip text when you mouse over the tooltip container */
+.tooltip:hover .tooltiptext {
+  visibility: visible;
+}
+
+/* Below TT */
+
+/*ToolTip*/
+
+.bottom_tooltip {
+  position: relative;
+  display: inline-block;
+  border-bottom: 1px dotted black; /* If you want dots under the hoverable text */
+}
+
+/* Tooltip text */
+.bottom_tooltip .bottom_tooltiptext {
+  visibility: hidden;
+  width: 120px;
+  background-color: black;
+  color: #fff;
+  text-align: center;
+  padding: 5px 0;
+  border-radius: 6px;
+  bottom: 100%;
+  left: 50%;
+  margin-left: -60px; 
+  /* Position the tooltip text - see examples below! */
+  position: absolute;
+  z-index: 1;
+  font-size: 16px;
+}
+
+.bottom_tooltip:hover{
+    cursor: pointer;
+}
+
+/* Show the tooltip text when you mouse over the tooltip container */
+.bottom_tooltip:hover .bottom_tooltiptext {
+  visibility: visible;
+}
+/* Bottom TT */
+
+
+.tile_pencil_check_container{
+  display:flex;
+}
+
+.your_app_check{
+  margin: 0px;
+  margin-right: 6px;
+  height:-webkit-fill-available;
+  width: 15.5px;
+}
+
+
+/*Edit Modal*/
+.add_app_modal {
+    box-shadow: 0 0 20px rgb(40 39 39 / 80%);
+    background-color: gainsboro;
+    padding: 20px; /* Adjust padding as needed */
+    position: fixed;
+    z-index: 2;
+    top: -1000px; /* Vertically center */
+    left: 50%; /* Horizontally center */
+    transform: translateX(-50%); /* Center using translate */
+    width: 50%;
+    height: 600px;
+    opacity: 0%; /* Set opacity to 100% to make it visible */
+    transition: opacity 1s, transform 1s; /* Combine transitions */
+    font-family: Raleway;
+}
+
+.input-field{
+    /* background: #eaeaea; */
+    /* margin: 15px 0; */
+    /* border-radius: 3px; */
+    /* display: flex; */
+    /* align-items: center; */
+}
+
+.input-field>i{
+    margin-left: 15px;
+    color:#999;
+    font-size: 18px;
+}
+
+input{
+    width: 80%;
+    background: transparent;
+    border: 0;
+    outline: 0;
+    padding: 12px 10px;
+    font-family: 'Raleway';
+    font-size: 14px;
+}
+
+select{
+    width: 90%;
+    background: transparent;
+    border: 0;
+    outline: 0;
+    padding: 18px 15px;
+    font-family: 'Raleway';
+    font-size: 14px;
+}
+
+.modal_header{
+    font-size: 150px;
+    text-align: center;
+}
+
+.js-add-app{
+    width: 70%;
+    margin: 0 auto;
+}
+
+
+
+/*Edit App Modal*/
+
+.edit_appmodal {
+    box-shadow: 0 0 20px rgb(40 39 39 / 80%);
+    background-color: #efefef;
+    padding: 20px; /* Adjust padding as needed */
+    position: fixed;
+    z-index: 2;
+    top: -1000px; /* Vertically center */
+    left: 50%; /* Horizontally center */
+    transform: translateX(-50%); /* Center using translate */
+    width: 50%;
+    height: 600px;
+    border-radius: 20px;
+    opacity: 0%; /* Set opacity to 100% to make it visible */
+    transition: opacity 1s, transform 1s; /* Combine transitions */
+}
+
+
+.close-delete-cont{
+  display: flex;
+  justify-content: space-between;
+}
+
+.close-delete-cont div{
+  font-size: 22px;
+}
+
+.edit_modal_header{
+    font-size: 70px;
+    text-align: center;
+}
+
+.edit_notes{
+    width: 95%;
+    height: 170px;
+    border-radius: 10px;
+    padding: 10px;
+    /* margin-right: 10px; */
+    font-family: 'Raleway';
+    line-height: 10px;
+}
+
+.edit_js-edit-app{
+    width: 95%;
+    margin: 0 auto;
+}
+
+.closemodal,
+.edit-modal-closemodal:hover{
+    cursor: pointer;
+}
+
+.submit-edit-app-bin{
+    text-align: center;
+    
+}
+.submit-app-changes-btn{
+    padding: 5px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgb(40 39 39 / 20%);
+    background-color: #395b89;
+    color: white;
+    font-weight: bold;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    border: 0.1px solid black;
+    transition: box-shadow .3s;
+    cursor: pointer;
+}
+
+.submit-app-changes-btn:hover{
+    box-shadow: 0 0 10px rgb(40 39 39 / 90%);
+}
+
+/*End of Edit App Modal*/
+
+
+
+/*Tile part of edit*/
+.edit_tile_container{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    flex-basis: 50%;
+    background-color: #efefef;
+    padding: 5px 20px;
+    border-radius: 20px;
+    /* margin-right: 20px; */
+    /* box-shadow: 0 0 7px rgb(122 122 122); */
+    transition: background-color .5s ease-in-out;
+    /* max-width: 255px; */
+    margin-top: 15px;
+    /* border: 1px solid black; */
+}
+
+.edit_tile_header {
+    display: flex;
+    justify-content: space-between; /* Add this line */
+    align-items: center;
+}
+
+.edit_tile_firm_name {
+    display: inline-block;
+    margin: 0px;
+}
+
+.edit_tile_app_checker {
+    display: inline-block;
+    order: 1; /* Add this line */
+    width: auto;
+}
+
+.edit_tile_link_name a{
+    color: black;
+    text-decoration: none;
+}
+
+.edit_tile_date{
+    text-align: right;
+}
+
+.edit_tile_logo_checker_cont {
+    display: flex;
+    justify-content: space-between;
+    align-items: center; /* Align the image to the top */
+    height: 60px;
+}
+
+.edit_tile_logo_checker_cont .tile_image_container {
+    display: flex;
+    align-items: flex-start;
+}
+
+.edit_tile_logo_checker_cont .edit_tile_input_container {
+    display: flex;
+    align-items: flex-end; /* Align the input to the bottom (right) */
+}
+
+.edit_tile_logo_checker_cont img {
+    max-width: 225px; /* Adjust the maximum width as needed */
+    min-height: 90px; /* Adjust the height as needed */
+    max-height: 160px;
+    object-fit: contain;
+}
+
+.edit_tile_image_container{
+    margin:0 auto;
+}
+
+#app_location{
+    padding: 0px 0px 5px 0px;
+    margin: 10px 0px 2px;
+    font-size: 18px;
+    display: inline-block;
+}
+
+#app_location_selector{
+    background-color: white;
+    padding: 5px 10px;
+}
+
+.edit_tile_link_box{
+    margin: 7.5px 0px;
+}
+
+.edit_app_location_selector option{
+    padding: 10px;
+}
+
+.edit_tile_link_name{
+    font-size: 18px;
+}
+.edit_tile_location_date{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 5px;
+    font-size: 18px;
+}
+
+.edit_tile_location{
+    color: black;
+}
+
+.edit_tile_date{
+    flex-order: 1;
+}
+
+.edit_tile_link_for_add_only{
+    display: none;
+}
+
+#add_app:hover{
+    cursor: pointer;
+}
+
+.app_edit_tile_firm_name{
+  font-size: 25px;
+}

@@ -1,0 +1,394 @@
+.body_dashboard{
+    display: flex;
+    justify-content: space-between;
+    /* flex-basis: 60%; */
+}
+
+.left_half_container{
+    margin: 2px;
+    flex-basis: 62%;
+    display: grid;
+}
+
+.right_half_container{
+    /* width: 400px; */
+    flex-order: 1;
+    border-radius: 15px;
+    border: 1px solid black;
+    flex-basis: 35%;
+    background-color: #f7f7f7;
+}
+
+.top_left_container{
+    /* display: flex; */
+    border: 1px solid black;
+    border-radius: 15px;
+    /* width: -webkit-fill-available; */
+    background-color: #f7f7f7;
+}
+
+.bottom_left_container{
+    margin-top: 10px;
+    /* border: 1px solid black; */
+    /* border-radius: 15px; */
+    display: flex;
+    justify-content: space-between;
+}
+
+.news_header_cont{
+    text-align: center;
+}
+
+.news_container{
+    display: flex;
+    justify-content: space-between;
+}
+
+.deal_activity_cont,
+.finance_activity_cont{
+    margin: 0px auto 10px;
+    flex-basis: 80%;
+}
+
+.deal_activity_cont {}
+
+.deal_header,
+.finance_header{
+    text-align: center;
+    display: block;
+    font-weight: 600;
+}
+
+.deal_container{
+    padding: 5px;
+}
+.deal_title{
+    font-weight: 500;
+    text-align: justify;
+    line-height: 1.5;
+}
+.finance_container{
+    padding: 5px;
+}
+
+/*Progress  */
+
+.progress_header{
+    display: block;
+    text-align: center;
+    font-weight: 600;
+    /* font-size: 20px; */
+}
+
+.progress_outer_container{
+    flex-basis: 68%;
+    border: 1px solid black;
+    border-radius: 15px;
+    background-color: #f7f7f7;
+    padding: 10px;
+}
+
+.progress_column_container{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+}
+
+.progress_container{
+    display: flex;
+    justify-content: space-between;
+}
+
+.kpi_cont{
+    text-align: center;
+    flex-basis: 33%;
+}
+
+
+
+/* Video */
+
+.demo_video_header{
+    text-align: center;
+}
+
+.demo_video_header h3{
+    color: black;
+}
+
+.demo_video_outer_container{
+
+/*Revert if bring progress back*/
+    /*flex-basis: 30%;*/
+    border: 1px solid black;
+    background-color: #f7f7f7;
+    border-radius: 15px;
+    padding: 10px;
+}
+
+.bubbles-col{
+    flex-basis: 42%;
+    border-radius: 10px;
+    margin-bottom: 30px;
+    position: relative;
+    overflow: hidden;
+    display: flex; /* Add flex display */
+    flex-direction: column; /* Stack child elements vertically */
+    justify-content: center; /* Vertically center content */
+    align-items: center; 
+    margin: 0 20%;
+}
+
+.bubbles-col:hover{
+    cursor: pointer;
+}
+
+.thumbnail{
+    border: 1px solid black;
+}
+
+.bubbles-col img{
+    width: 100%;
+    display: block;
+    object-fit: cover;
+}
+
+.layer{
+    background: transparent;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transition: 0.5s;
+    text-align: center;
+}
+
+.layer:hover{
+    background: rgba(226,0,0,0.7);
+}
+
+.layer h3{
+    width: 100%;
+    color: #fff;
+    font-size: 16px;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    position: absolute;
+    opacity: 0;
+    transition: 0.5s;
+}
+
+.layer h3:hover{
+    cursor: pointer;
+}
+
+.layer:hover h3{
+    bottom: 49%;
+    opacity: 1;
+}
+
+
+/* To Do Breakdown */
+
+.inner_add_item_form_cont{
+    background: #eaeaea;
+    margin: 0px 0;
+    border-radius: 3px;
+    display: flex;
+    align-items: center;
+    border: 1px solid transparent;
+    transition: .25s ease-in;
+}
+
+.inner_add_item_form_cont:focus-within {
+  background-color: white;
+  border: 1px solid #aaaadf;
+}
+
+.inner_add_item_form_cont>i{
+    margin: 0px 5px;
+    color:#999;
+    font-size: 18px;
+}
+
+.inner_add_item_form_cont .new_item{
+    /* width: 80%; */
+    background: transparent;
+    border: 0;
+    outline: 0;
+    flex-basis: 85%;
+    padding: 10px 2% 10px 2%;
+}
+
+
+
+.to_do_list_cont{
+    overflow-y: scroll;
+    overflow-x: hidden;
+    -ms-overflow-style: none;
+    scrollbar-width: thin;
+    margin-top: 15px;
+}
+
+.to_do_list_cont::-webkit-scrollbar {
+    display: inline;
+}
+
+/* Style the scrollbar thumb and track for WebKit-based browsers (optional) */
+.to_do_list_cont::-webkit-scrollbar-thumb {
+    background-color: gray; /* Customize the color */
+    width: 2px;
+}
+
+.to_do_list_cont::-webkit-scrollbar-track {
+    background-color: #f0f0f0; /* Customize the color */
+    width: 2px;
+}
+
+/* Show the scrollbar on hover in WebKit-based browsers */
+.to_do_list_cont:hover::-webkit-scrollbar {
+    display: inline; /* Show the scrollbar on hover */
+}
+
+/* Hide the scrollbar in Microsoft browsers by default */
+.to_do_list_cont {
+    scrollbar-width: thin;
+}
+
+/* Show the scrollbar in Microsoft browsers on hover */
+.to_do_list_cont:hover {
+    scrollbar-width: thin; /* Show the scrollbar on hover */
+}
+
+*::-webkit-scrollbar{
+    width: 8px;
+}
+
+.to_do_header{
+    text-align: center;
+}
+
+.to_do_header h3{
+    margin-top: 0px;
+}
+
+.add_to_do_item{
+    /* background-color: gray; */
+    margin:  5px;
+    padding: 10px 5px;
+    /* border: 1px solid black; */
+    /* border-radius: 10px; */
+}
+
+.add_item_form{
+    
+}
+
+
+.ind_uncompleted_item_cont{
+    color: black
+}
+
+.ind_completed_item_cont{
+    color: black
+}
+
+.to_do_inner_header,
+.completed_inner_header{
+    border-bottom: 2px solid black;
+    margin: 5px 0% 0px 2%;
+}
+
+.to_do_inner_header h6,
+.completed_inner_header h6{
+    margin: 0px;
+    font-size: 16px;
+    font-weight: 500;
+    padding-bottom: 3px
+}
+
+.ind_uncompleted_item{
+    color: black;
+    display: flex;
+    margin: 5px;
+    /* background-color: #e3e3cf; */
+    /* justify-content: space-between; */
+    padding: 10px 5px;
+    /* border-radius: 10px; */
+    border-bottom: 1px solid gray;
+}
+
+.ind_uncompleted_item:last-child{
+    border-bottom: none;
+}
+
+.ind_uncompleted_item .checkofftdl{
+    flex-basis: 5%;
+}
+
+.ind_uncompleted_item .checkofftdl:hover{
+    cursor: pointer;
+}
+
+.ind_uncompleted_item .item_text{
+    flex-basis: 89%;
+    text-align: left;
+    /* float: left; */
+    padding: 0px 6% 0px 2%;
+}
+
+.ind_uncompleted_item .deletetdlitem{
+    flex-basis: 5%;
+}
+
+
+.ind_uncompleted_item .deletetdlitem:hover{
+    cursor: pointer;
+}
+
+.ind_completed_item{
+    color: black;
+    display: flex;
+    margin: 5px;
+    background-color: #e3e3cf;
+    /* justify-content: space-between; */
+    padding: 10px 5px;
+    border-radius: 10px;
+    opacity: 60%;
+}
+
+.ind_completed_item .unchecktdl{
+    flex-basis: 5%;
+    opacity: 30%;
+}
+
+.ind_completed_item .unchecktdl:hover{
+    cursor: pointer;
+}
+
+.ind_completed_item .item_text{
+    flex-basis: 89%;
+    text-align: left;
+    /* float: left; */
+    padding: 0px 6% 0px 2%;
+}
+
+.ind_completed_item .deletetdlitem{
+    flex-basis: 5%;
+}
+
+.ind_completed_item .deletetdlitem:hover{
+    cursor: pointer;
+}
+
+/*.progress-bar {*/
+/*  width: 100px;*/
+/*  height: 100px;*/
+/*  border-radius: 50%;*/
+/*  background: */
+/*    radial-gradient(closest-side, white 79%, transparent 80% 100%),*/
+/*    conic-gradient(hotpink 40%, pink 0);    */
+/*}*/

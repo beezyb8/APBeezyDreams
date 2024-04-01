@@ -1,0 +1,113 @@
+.full_cont{
+    background-color: #ebebeb;
+    margin: 40px 30px 60px;
+    border-radius: 30px;
+    padding: 10px 100px 40px;
+    box-shadow: 0 0 100px rgb(40 39 39 / 90%);
+}
+
+.admin_header{
+    text-align: center
+}
+
+.admin_header>h4{
+    font-size: 40px;
+    margin: 20px 0px 0px;
+}
+
+.admin_header>p{
+    font-size: 30px;
+    margin: 10px 0px 0px;
+}
+
+.admin_writeup{
+  text-align: center;  
+}
+
+.admin_writeup>.admin_writeup_bulk{
+    font-size: 25px;
+    width: 70%;
+    display: inline-block;
+}
+
+.admin_writeup>.admin_seeblow{
+    font-size: 20px;
+    margin: 0px;
+    display: block;
+}
+
+.admin_writeup>.admin_astrix{
+    font-size: 18px;
+    margin: 0px;
+    margin-top: 2px;
+    display: block;
+}
+
+
+
+.potential_images {
+    display: flex;
+    height: 300px;
+    justify-content: center;
+}
+
+.img_cont {
+    display:flex;
+    margin: 20px;
+    flex: .3333; /* Use flex-grow to distribute available space evenly among the images */
+    justify-content: center;
+}
+
+@media(max-width: 1200px){
+    .potential_images{
+        height: 200px
+    }
+}
+@media(max-width: 865px){
+    .potential_images{
+        height: 150px
+    }
+}
+
+@media(max-width: 620px){
+    .potential_images{
+        display: block;
+        /* height: 1000px; */
+        justify-content: center;
+        margin: 0 auto;
+        text-align: center;
+    }
+
+    .full_cont{
+        padding: 10px 0px;
+        margin: 10px 1px;
+    }
+
+    .img_cont{
+        display: block;
+        margin: 0 auto;
+        justify-content: center;
+    }
+
+    .body_img{
+        width: 200px;
+        margin: 0 auto;
+    }
+    .admin_header>h4{
+        font-size: 25px;
+    }
+    .admin_header>p{
+        font-size: 22px
+    }
+    .admin_writeup{
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+    .admin_writeup>.admin_writeup_bulk{
+        font-size: 20px;
+        width: 100%;
+    }
+    .potential_images{
+        height: 500px;
+    }
+}

@@ -1,0 +1,108 @@
+
+.reply_icon{
+    padding: 5px 0px;
+    background-color: white;
+    text-align: right;
+    border-bottom-left-radius: 7.5px;
+    border-bottom-right-radius: 7.5px;
+    transition: background-color .5s;
+    padding-right: 5px;
+}
+
+.reply_icon:hover{
+    background-color:#c4c4c4;
+    cursor: pointer;
+}
+
+.hide_reply_icon{
+    padding: 5px 0px;
+    background-color: white;
+    text-align: center;
+    transition: background-color .5s; 
+    display: none;
+}
+
+.hide_reply_icon:hover{
+    cursor: pointer;
+}
+
+
+.vibe_reply_cont{
+    text-align: center;
+    display: none;
+    margin: 10px 30px;
+}
+
+
+.vibe_reply_textarea{
+    width: -webkit-fill-available;
+    border: none;
+    box-shadow: 0 0 5px rgb(0 0 0 / 50%);
+    margin: 10px 10px;
+    height: 20px;
+    min-height: 20px;
+    border-radius: 10px;
+    background-color: #e0e0e0;
+    padding: 5px 10px;
+    transition: box-shadow .3s;
+    transition: height .3s;
+}
+
+
+.vibe_reply_btn{
+    margin: 0 auto;
+    display: none;
+    margin-bottom: 10px;
+}
+
+@keyframes expand {
+    from {
+        max-height: 0;
+    }
+    to {
+        max-height: 1000px; /* or any desired value */
+    }
+}
+
+@keyframes shrink {
+    from {
+        max-height: 0;
+    }
+    to {
+        max-height: 1000px; /* or any desired value */
+    }
+}
+
+.replies_cont{
+    overflow: hidden;
+}
+
+.animate-expand {
+    max-height: 0px;
+    animation: expand 1s ease-in-out;
+    max-height: 1000px;
+}
+
+.animate-shrink {
+    max-height: 1000px;
+    animation: shrink .5s ease-in-out;
+    max-height: 0px;
+}
+
+.vibe_reply_container{
+    margin: 10px 130px 0px;
+    border-bottom: .1px solid black;
+    padding-right: 30px;
+    padding-left: 30px;
+    padding-bottom: 10px;
+}
+
+.reply_likes_head{
+    display: inline-block;
+    float: right;
+}
+
+.no_reps{
+    text-align: center;
+    margin: 20px 0px;
+}

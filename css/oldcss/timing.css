@@ -1,0 +1,268 @@
+.display_nav{
+    display: block;
+    margin-top: 78px;
+    overflow-x: hidden;
+}
+
+#callshad{
+    margin: 20px 0px;
+    position: relative;
+    left: 15%;
+}
+
+/* #colds:hover{
+
+} */
+
+#calls_had{
+    margin: 20px 0px;
+    position: relative;
+    left: 34.9%;
+}
+
+#apps{
+    margin: 20px 0px;
+    position: relative;
+    left: 56%;
+}
+
+.bodycont{
+    margin-top: 120px;
+}
+
+.header{
+    text-align: center;
+}
+
+.contcont_body{
+    margin: 10px;
+}
+
+.cont_body{
+    background-color: gainsboro;
+    margin-left: 40px;
+    margin-right: 40px;
+    align-items: center;
+    box-shadow: 0 0 25px;
+    padding: 5px;
+}
+
+.table_cont{
+    display: block;
+    position: relative;
+    width: 90%;
+    margin: 0px auto;
+    border: 2px solid black;
+    border-radius: 30px;
+    background-color: white;
+}
+
+.header_cont{
+    display: flex;
+    height: fit-content;
+}
+
+.appcont{
+    display: flex;
+    height: fit-content;
+}
+
+.header_bank_cont{
+    display: flex;
+    border-right: 2px solid black;
+    width: 20%;
+    font-size: 18px;
+    text-align: center;
+    padding: 5px;
+}
+
+.bank_link_title>p{
+    padding-left: 18px;
+    margin: 0px;
+}
+
+.header_banknotes_cont{
+    display: inline-block;
+    border-right: 2px solid black;
+    width: 50%;
+    font-size: 18px;
+    text-align: center;
+    padding: 5px;
+    overflow-wrap: break-word;
+}
+.header_callshad{
+    display: inline-block;
+    border-right: 2px solid black;
+    width: 10%;
+    font-size: 18px;
+    text-align: center;
+    padding: 5px;
+    overflow-wrap: break-word;
+}
+
+.header_thankyou_sent{
+    display: inline-block;
+    border-right: 2px solid black;
+    width: 10%;
+    font-size: 18px;
+    text-align: center;
+    padding: 5px;
+    overflow-wrap: break-word;
+}
+
+.header_appdate_cont{
+    display: inline-block;
+    width: 10%;
+    font-size: 18px;
+    text-align: center;
+    padding: 5px;
+    overflow-wrap: break-word;
+}
+
+
+.bank_cont{
+    display: flex;
+    border-right: 2px solid black;
+    border-top: 2px solid black;
+    width: 20%;
+    font-size: 16px;
+    text-align: center;
+    padding: 5px;
+}
+
+.bank_apps{
+    padding-left: 16px;
+    color:#244f89;
+}
+
+.bank_apps:hover{
+    padding-left: 16px;
+    color: red;
+}
+
+
+.banknotes_cont{
+    display: inline-block;
+    border-right: 2px solid black;
+    border-top: 2px solid black;
+    width: 50%;
+    font-size: 16px;
+    text-align: center;
+    padding: 5px;
+    overflow-wrap: break-word;
+}
+
+.calls_had{
+    display: inline-block;
+    border-right: 2px solid black;
+    border-top: 2px solid black;
+    width: 10%;
+    font-size: 16px;
+    text-align: center;
+    padding: 5px;
+    overflow-wrap: break-word;
+}
+
+.thankyou_sent{
+    display: inline-block;
+    border-right: 2px solid black;
+    border-top: 2px solid black;
+    width: 10%;
+    font-size: 16px;
+    text-align: center;
+    padding: 5px;
+    overflow-wrap: break-word;
+}
+
+.appdate_cont{
+    display: inline-block;
+    border-top: 2px solid black;
+    width: 10%;
+    font-size: 16px;
+    text-align: center;
+    padding: 5px;
+    overflow-wrap: break-word;
+}
+
+
+@media(max-width: 1075px){
+    .header_banknotes_cont{
+        width: 40%;
+    }
+    .banknotes_cont{
+        width: 40%;
+    }
+}
+
+@media(max-width: 800px){
+    .header_banknotes_cont{
+        display: none;
+    }
+    .banknotes_cont{
+        display: none;
+    }
+    .header_bank_cont{
+        width: 25%;
+    }
+    .bank_cont{
+        width: 25%;
+    }
+    .header_callshad{
+        width: 25%;
+    }
+    .calls_had{
+        width: 25%;
+    }
+    .header_thankyou_sent{
+        width: 25%;
+    }
+    .calls_had{
+        width: 25%;
+    }
+    .header_appdate_cont{
+        width: 25%;
+    }
+    .appdate_cont{
+        width: 25%;
+    }
+    
+}
+
+@media(max-width: 500px){
+    .header_banknotes_cont{
+        display: none;
+    }
+    .banknotes_cont{
+        display: none;
+    }
+    .header_bank_cont{
+        font-size: 10px;
+    }
+    .bank_cont{
+        font-size: 10px;
+    }
+    .header_callshad{
+        font-size: 10px;
+    }
+    .calls_had{
+        font-size: 10px;
+    }
+    .header_thankyou_sent{
+        font-size: 10px;
+    }
+    .calls_had{
+        font-size: 10px;
+    }
+    .header_appdate_cont{
+        font-size: 10px;
+    }
+    .appdate_cont{
+        font-size: 10px;
+    }
+    .cont_body{
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+}
+
+/*Wherever it breaks make all the fonts 10px, remove the margins from the bigger grey container, and it'll work*/

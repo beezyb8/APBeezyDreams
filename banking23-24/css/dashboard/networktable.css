@@ -1,0 +1,356 @@
+/*ToolTip*/
+
+.tooltip {
+  position: relative;
+  display: inline-block;
+  border-bottom: 1px dotted black; /* If you want dots under the hoverable text */
+}
+
+/* Tooltip text */
+.tooltip .tooltiptext {
+  visibility: hidden;
+  width: 120px;
+  background-color: black;
+  color: #fff;
+  text-align: center;
+  padding: 5px 0;
+  border-radius: 6px;
+  bottom: 100%;
+  left: 50%;
+  margin-left: -60px; 
+  /* Position the tooltip text - see examples below! */
+  position: absolute;
+  z-index: 1;
+}
+
+.tooltip:hover{
+    cursor: pointer;
+}
+
+/* Show the tooltip text when you mouse over the tooltip container */
+.tooltip:hover .tooltiptext {
+  visibility: visible;
+}
+
+
+/*Add Contact Modal*/
+
+.contactmodal {
+    border: 1px solid black;
+    background-color: gainsboro;
+    padding: 20px; /* Adjust padding as needed */
+    position: fixed;
+    z-index: 2;
+    top: -1000px; /* Vertically center */
+    left: 50%; /* Horizontally center */
+    transform: translateX(-50%); /* Center using translate */
+    width: 50%;
+    height: 600px;
+    opacity: 0%; /* Set opacity to 100% to make it visible */
+    transition: opacity 1s, transform 1s; /* Combine transitions */
+}
+
+.input-field{
+    background: #eaeaea;
+    margin: 15px 0;
+    border-radius: 3px;
+    display: flex;
+    align-items: center;
+}
+
+.input-field>i{
+    margin-left: 15px;
+    color:#999;
+    font-size: 18px;
+}
+
+input{
+    width: 80%;
+    background: transparent;
+    border: 0;
+    outline: 0;
+    padding: 18px 15px;
+    font-family: 'Raleway';
+}
+
+.modal_header{
+    font-size: 150px;
+    text-align: center;
+}
+
+.js-add-contact{
+    width: 70%;
+    margin: 0 auto;
+}
+
+
+/*Edit Contact Modal*/
+
+.edit_contactmodal {
+    border: 1px solid black;
+    background-color: gainsboro;
+    padding: 20px; /* Adjust padding as needed */
+    position: fixed;
+    z-index: 2;
+    top: -1000px; /* Vertically center */
+    left: 50%; /* Horizontally center */
+    transform: translateX(-50%); /* Center using translate */
+    width: 50%;
+    height: 600px;
+    overflow-y: scroll;
+    scrollbar: none;
+    opacity: 0%; /* Set opacity to 100% to make it visible */
+    transition: opacity 1s, transform 1s; /* Combine transitions */
+}
+
+.edit_modal_header{
+    font-size: 70px;
+    text-align: center;
+}
+
+.edit_notes{
+    width: 100%;
+    height: 170px;
+}
+
+.edit_js-edit-contact{
+    width: 70%;
+    margin: 0 auto;
+}
+
+.closemodal,
+.edit-modal-closemodal:hover{
+    cursor: pointer;
+}
+
+/*End of Edit Contact Modal*/
+
+
+.nworktable{
+    width: -webkit-fill-available;
+    margin-left: 20px;
+    border-collapse: collapse;
+    border-left: 2px solid black;
+    border-right: 2px solid black;
+    border-top: 2px solid black;
+    background-color:  #e9e9e9; 
+    overflow-x: scroll;
+    margin-right: 20px;
+}
+
+.nworktable>.nworkhead{
+    border-bottom: 3px solid black;
+    width: 100%;
+    background-color: rgb(75 75 75);
+    color: white;
+    /* padding: 20px 0px; */
+}
+
+.contact_title{
+    width: 20%;
+}
+
+.notes_tit{
+    width: 60%;
+}
+
+.checkboxhead{
+    margin: 5px 7px;
+}
+
+.contacttitle{
+    text-align: center;
+    font-size: 16px;
+    font-weight: 500;
+    /*background-color:  #e9e9e9;*/
+}
+
+.table_body>tr{
+    border-bottom: 2px solid black;
+    transition: background-color .25s;
+}
+
+
+.table_body>tr>.coldemail,
+.callsched,
+.call,
+.thankyou{
+    text-align: center;
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+}
+
+.nocontacts{
+    display: inline-block;
+    margin-left: 20px;
+}
+
+.newcontact{
+    margin-left: 20px;
+    display: block;
+    height: 26px;
+}
+
+.contactmodal{
+    margin-left: 20px;
+    border-radius: 20px;
+}
+
+.notes{
+    text-align: left;
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+    background-color:  #e9e9e9;
+    transition: all .5s;
+    transition-delay: .25s;
+}
+
+.notes:hover{
+    background-color: #eeeeee;
+}
+
+#notetextarea{
+    background-color:  #e9e9e9;
+    width: -webkit-fill-available;
+    border: 2px solid transparent;
+    border-radius: 10px;
+    margin: 5px 5px 0px 5px;
+    align-self: center;
+    resize: none;
+    outline: none;
+    min-height: 0;
+    padding: 1em;
+    font-family: sans-serif;
+    font-size: 16px;
+    line-height: 1.4;
+    transition: all 0.5s;
+    transition-delay: .25s;
+}
+
+#notetextarea:hover{
+    cursor: pointer;
+    background-color: #eeeeee
+}
+
+#notetextarea:focus{
+    cursor: text;
+    color: #333333;
+    background-color: white;
+    border-color: #333333;
+}
+
+#textchangebtn{
+    display: none;
+    margin-left: 5px;
+}
+
+.editct{
+    display: none;
+}
+
+.editcontbtn{
+    background-color: white;
+    border-radius: 10px;
+    border: 1px solid black;
+}
+
+.editcontbtn:hover{
+    font-size: 14px;
+}
+
+.exiteditmode{
+    background-color: white;
+    border-radius: 10px;
+    border: 1px solid black;
+}
+
+#editctnamebtn{
+    background-color: rgb(32, 142, 32);
+    border: 1px solid black;
+    border-radius: 10px;
+    font-weight: bold;
+    margin-top: 5px;
+}
+
+#deletectnamebtn{
+    background-color: rgb(211, 77, 77);
+    border: 1px solid black;
+    border-radius: 10px;
+    font-weight: bold;
+}
+
+.editct{
+    background-color: white;
+    border-radius: 5px;
+    border: 1px solid black;
+}
+
+tr:nth-child(even),
+tr:nth-child(even) .contacttitle,
+tr:nth-child(even) .date_td,
+tr:nth-child(even) .bank_td,
+tr:nth-child(even) .notes,
+tr:nth-child(even) .notes #notetextarea {
+    background-color: #d4d4d4; /* Gray background for even rows */
+}
+
+tbody tr:nth-child(odd),
+tr:nth-child(odd) .contacttitle,
+tr:nth-child(odd) .date_td,
+tr:nth-child(odd) .bank_td,
+tr:nth-child(odd) .notes,
+tr:nth-child(odd) .notes #notetextarea {
+    background-color: #efefef; /* White background for odd rows */
+}
+
+.nworkhead tr th{
+    padding: 10px 0px 20px;
+}
+
+@media(max-width: 500px){
+    .checkboxhead{
+        font-size: 10px;
+    }
+    .notes_tit{
+        font-size: 10px;
+    }
+    .contact_title{
+        font-size: 10px;
+    }
+    #editbtnid{
+        font-size: 10px;
+    }
+    .contacttitle{
+        font-size: 10px;
+    }
+}
+
+
+.colddone .coldemail,
+.colddone .callsched,
+.colddone .call,
+.colddone .thankyou{
+    background-color: #ffd383;
+}
+
+.callscheddone .coldemail,
+.callscheddone .callsched,
+.callscheddone .call,
+.callscheddone .thankyou{
+    background-color: #ffff84;
+}
+
+
+.callhaddone .coldemail,
+.callhaddone .callsched,
+.callhaddone .call,
+.callhaddone .thankyou{
+    background-color: #ff7272;
+}
+
+.thankyoudone .coldemail,
+.thankyoudone .callsched,
+.thankyoudone .call,
+.thankyoudone .thankyou{
+    background-color: #43b349;
+}

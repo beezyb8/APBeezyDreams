@@ -1,0 +1,12 @@
+[09-Oct-2023 10:59:57 America/Chicago] PHP Warning:  Undefined array key "user_id" in /home2/mylegupc/public_html/banking/banking.thevibe.php on line 8
+[09-Oct-2023 10:59:57 America/Chicago] PHP Warning:  Trying to access array offset on value of type bool in /home2/mylegupc/public_html/banking/banking.thevibe.php on line 125
+[09-Oct-2023 10:59:57 America/Chicago] PHP Warning:  Trying to access array offset on value of type bool in /home2/mylegupc/public_html/banking/banking.thevibe.php on line 125
+[20-Oct-2023 14:12:17 America/Chicago] PHP Warning:  Undefined array key "user_id" in /home2/mylegupc/public_html/banking/banking.thevibe.php on line 8
+[20-Oct-2023 14:12:17 America/Chicago] PHP Warning:  Trying to access array offset on value of type bool in /home2/mylegupc/public_html/banking/banking.thevibe.php on line 125
+[20-Oct-2023 14:12:17 America/Chicago] PHP Warning:  Trying to access array offset on value of type bool in /home2/mylegupc/public_html/banking/banking.thevibe.php on line 125
+[20-Oct-2023 14:13:17 America/Chicago] PHP Warning:  Undefined array key "user_id" in /home2/mylegupc/public_html/banking/banking.thevibe.php on line 8
+[20-Oct-2023 14:13:17 America/Chicago] PHP Warning:  Trying to access array offset on value of type bool in /home2/mylegupc/public_html/banking/banking.thevibe.php on line 125
+[20-Oct-2023 14:13:17 America/Chicago] PHP Warning:  Trying to access array offset on value of type bool in /home2/mylegupc/public_html/banking/banking.thevibe.php on line 125
+[31-Dec-2023 00:16:34 America/Chicago] PHP Warning:  Undefined array key "user_id" in /home2/mylegupc/public_html/banking/banking.thevibe.php on line 8
+[31-Dec-2023 00:16:34 America/Chicago] PHP Warning:  Trying to access array offset on value of type bool in /home2/mylegupc/public_html/banking/banking.thevibe.php on line 125
+[31-Dec-2023 00:16:34 America/Chicago] PHP Warning:  Trying to access array offset on value of type bool in /home2/mylegupc/public_html/banking/banking.thevibe.php on line 125

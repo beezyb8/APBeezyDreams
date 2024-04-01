@@ -1,0 +1,446 @@
+.bank_list_cont{
+    margin-top: 95px;
+    margin-left: 0px;
+    margin-right: 0px; 
+    width: 16%;
+    float: left;
+    overflow-y: hidden;
+    overflow-y: scroll;
+    height: 800px;
+}
+
+.banklisttable{
+    margin-left: 0px;
+    padding: 0px;
+    width: 100%;
+    /* border-collapse: collapse; */
+}
+
+
+.innerp{
+    margin: 0px;
+    padding: 0px;
+}
+
+thead{
+    width: 100%;
+}
+.banklisttable>tbody>tr{
+    margin: 0px;
+    padding: 0px;
+}
+
+.banklisttable>tbody>tr>td{
+    border-radius: 20px;
+    border: 1px solid black;
+}
+
+.banklisttable>tbody>tr>.switch{
+    margin: 2px 0px;
+    font-size: 20px;
+    color: white;
+    background-image: linear-gradient(to right,#244f89,#14345d);
+    padding: 2px 0px 4px 20px;
+    
+/*FADES BELOW COMMENT OUT TOP, UNCOMMENT OUT BOTTOM!*/
+    
+    /*margin: 2px 0px;*/
+    /*font-size: 16px;*/
+    /*color: white;*/
+    /*background-image: linear-gradient(to right,#244f89,#14345d);*/
+    /*background: #244f89;*/
+    /*padding: 2px 0px 4px 20px;*/
+    /*transition: background 1s;*/
+}
+
+
+.switch:hover{
+    text-decoration: underline;
+    cursor: all-scroll;
+    /* or grab^ */
+    font-weight: bold;
+}
+
+.banklisttable>tbody>tr>.current_switch{
+    text-decoration: underline;
+    background-color: white;
+    color: #244f89;
+    cursor: all-scroll;
+    /* or grab^ */
+    font-weight: 650;
+    background-image: none;
+}
+
+#arrows{
+    float: right;
+    margin-right: 10px;
+}
+
+.addbank{
+    font-size: 18px;
+    background-color: white;
+    color: black;
+    padding: 2px 0px 4px 20px;
+}
+
+.addbank:hover{
+    font-size: 22px;
+    cursor: pointer;
+}
+
+
+.nothing{
+    border: none;
+}
+
+.addbankp{
+    margin: 0px;
+    padding: 0px;
+}
+
+.addbankcont{
+    display: none;
+}
+
+.addbankform{
+    font-size: 18px;
+    text-decoration: none;
+}
+
+.companyname{
+    margin-bottom: 2px;
+}
+
+.addbankname:hover{
+    font-size: 18px;
+}
+
+.bankaddsub{
+    display: inline-block;
+    background-color: green;
+    color: white;
+    font-size: 20px;
+    border-radius: 10px;
+    border-color: green;
+}
+
+.bankaddsub:hover{
+    background-color: rgb(8, 232, 8);
+    border-color: green;
+}
+
+.bankaddexit{
+    display: inline-block;
+    background-color: red;
+    color: white;
+    font-size: 20px;
+    border-radius: 10px;
+    border-color: red;
+}
+
+.bankaddexit:hover{
+    background-color: rgb(161, 6, 6);
+    border-color: red;
+}
+
+
+.bank_info_cont{
+    margin-top: 110px;
+    float: right;
+    width: 80%;
+    /* border-radius: 10px; */
+    box-shadow: 0 0 70px rgb(40 39 39 / 80%);
+    background-color: white;
+    position: relative;
+    right: 20px;
+    overflow: hidden;
+    margin-bottom: 100px;
+}
+
+
+/* Change write-up to be pretty */
+/* Enter Reaction */
+.bank_info_cont{
+    padding: 5px;
+    color: black;
+    background-image: linear-gradient(to bottom,white,#e6e4e4);
+}
+
+.bank_title_cent{
+    text-align: center;
+}
+
+.bank_name{
+    text-decoration: underline;
+    margin: 10px 0px;
+    font-size: 28px;
+    display: inline-block;
+    position: relative;
+    left: 42.5px;
+    text-align: center;
+}
+
+.banklogo{
+    width: 75px;
+    height: 75px;
+    float: right;
+    position: relative;
+    left: -10px;
+}
+
+.writtencont{
+    display: none;
+    padding-left: 20px;
+    padding-right: 25px;
+}
+
+#writeup,
+#interviewsum{
+    font-size: 20px;
+    margin: 5px 0px 10px 0px;
+}
+
+.banknotescont{
+    width: 100%;
+}
+
+.banknotes{
+    width: 98%;
+}
+
+#banknotesbutton{
+    display: none;
+}
+
+.toptitle{
+    margin: 10px 0px 0px 0px;
+    font-size: 22px;
+}
+
+.notestitle{
+    margin: 10px 0px 0px 0px;
+    font-size: 22px;
+}
+
+.bottomtitle{
+    margin: 20px 0px 0px 0px;
+    font-size: 22px;
+}
+
+#emailformat{
+    padding: 0px 0px 10px 0px;
+    margin: 0px;
+    font-size: 20px;
+}
+
+#emailex{
+    font-weight: normal;
+    display: inline-block;
+}
+
+.notescont{
+    display: none;
+    padding-left: 20px;
+    padding-right: 25px;
+}
+
+.contactcont{
+    display: none;
+}
+
+/*HomeCont*/
+
+
+.ab_cont{
+    width: 70%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.homepage{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.abus{
+    padding-left: 85px;
+    padding-right: 85px;
+    text-align: center;
+    font-size: 20px;
+}
+
+#demo{
+    margin-bottom: 50px;
+}
+
+.disclaimer_cont{
+    text-align: center;
+}
+
+.disc{
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+.sup{
+    font-weight: normal;
+    margin-top: 10px;
+}
+
+
+.video{
+    width: 40%;
+}
+
+/*HOME CONT^^^^^^*/
+
+/* APP LINKS */
+
+.applink_modal{
+    margin-bottom: 20px;
+    display: none;
+}
+
+.applink_modal_cont{
+    padding-left: 20px;
+}
+
+#app_link{
+    padding: 0px 0px 10px 0px;
+    margin: 0px;
+    font-size: 18px;
+    display: inline-block;
+}
+#app_due_date{
+    padding: 0px 0px 10px 0px;
+    margin: 0px;
+    font-size: 18px;
+    display: inline-block;
+}
+
+.app_cont{
+    display: none;
+    margin-left: 20px;
+    margin-right: 20px;
+    /* width: 95%; */
+    margin-bottom: 30px;
+    background-color: rgb(234, 234, 234);
+    box-shadow: 0 0 5px rgb(0 0 0 / 50%);
+}
+
+.app_cont>.applinks{
+    padding: 20px;
+}
+
+
+.btn_guo{
+    padding: 5px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgb(40 39 39 / 20%);
+    background-color: #244f89;
+    color: white;
+    font-weight: bold;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    border: 0.1px solid black;
+    transition: box-shadow .3s;
+    cursor: pointer;
+}
+
+.btn_guo:hover{
+    box-shadow: 0 0 10px rgb(40 39 39 / 90%);
+}
+
+
+/*REVIEW^^^^*/
+
+
+@media(max-width: 800px){
+    .bank_info_cont{
+        width: 76%;
+    }
+    .banklisttable>tbody>tr>.switch{
+        padding-left: 10px;
+    }
+}
+
+@media(max-width: 700px){
+    .bank_name{
+        left: 0px;
+    }
+    .banklogo{
+        width: 75px;
+        height: 75px;
+        float: none;
+        clear: both;
+        position: relative;
+        left: 0px;
+        display: block;
+        margin: auto;
+    }
+}
+
+@media(max-width: 625px){
+    .bank_info_cont{
+        width: 75%;
+    }
+}
+@media(max-width: 560px){
+    .bank_info_cont{
+        width: 73%;
+    }
+}
+
+
+@media(max-width: 500px){
+    .bank_info_cont{
+        width: 92%;
+        right: 0px;
+        float: none;
+        margin-bottom: 0px;
+        margin: 100px auto 0px auto;
+    }
+    .bank_list_cont{
+        width: 100%;
+        float: none;
+        margin-bottom: 0px;
+        margin-top: 30px;
+    }
+    .nworktable{
+        margin-left: 2px;
+        margin-right: 2px;
+        width: 100%;
+    }
+    .abus{
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .disc{
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .video{
+        width: 70%;
+    }
+}
+/*@media(max-width: 500px){*/
+/*    .checkboxhead{*/
+/*        font-size: 10px;*/
+/*    }*/
+/*    .notes_tit{*/
+/*        font-size: 10px;*/
+/*    }*/
+/*    .contact_title{*/
+/*        font-size: 10px;*/
+/*    }*/
+/*    #editbtnid{*/
+/*        font-size: 10px;*/
+/*    }*/
+/*    .contacttitle{*/
+/*        font-size: 10px;*/
+/*    }*/
+/*}*/

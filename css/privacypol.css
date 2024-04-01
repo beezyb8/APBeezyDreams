@@ -1,0 +1,30 @@
+body{
+    margin: 0px;
+    padding: 20px 100px;
+    background-color: gainsboro;
+}
+
+.big_cont{
+    display: inline-block;
+    background-color: white;
+    padding: 10px 30px;
+    box-shadow: 0 0 30px rgb(40 39 39 / 50%);
+}
+
+.h_cont{
+    text-align:center;
+}
+
+h1,h3{
+    text-decoration: underline;
+}
+
+h1{
+    font-size: 35px;
+}
+
+@media(max-width: 500px){
+    body{
+        padding: 20px 25px;
+    }
+}

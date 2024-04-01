@@ -1,0 +1,245 @@
+.newapp i{
+    padding: 0px 10px;
+}
+
+.newapp{
+    margin-left: 10px;
+    padding: 5px;
+    /* padding-left: 20px; */
+    padding-right: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgb(40 39 39 / 20%);
+    background-color:white;
+    color: #244f89;
+    font-size: 18px;
+    font-weight: bold;
+    /* margin-top: 5px; */
+    /* margin-bottom: 5px; */
+    border: 0.1px solid black;
+    transition: box-shadow .3s;
+    cursor: pointer;
+    /* height: 28px; */
+    margin: auto 0;
+    margin-left: 10px;
+}
+
+
+.newapp:hover{
+    box-shadow: 0 0 10px rgb(40 39 39 / 90%);
+}
+
+
+.add_appmodal {
+    box-shadow: 0 0 20px rgb(40 39 39 / 80%);
+    background-color: #efefef;
+    padding: 20px; /* Adjust padding as needed */
+    position: fixed;
+    z-index: 2;
+    top: -1000px; /* Vertically center */
+    left: 50%; /* Horizontally center */
+    transform: translateX(-50%); /* Center using translate */
+    width: 50%;
+    height: 600px;
+    border-radius: 20px;
+    opacity: 0%; /* Set opacity to 100% to make it visible */
+    transition: opacity 1s, transform 1s; /* Combine transitions */
+}
+
+
+.close-delete-cont{
+  display: flex;
+  justify-content: space-between;
+}
+
+.close-delete-cont div{
+  font-size: 22px;
+}
+
+.add_modal_header{
+    font-size: 70px;
+    text-align: center;
+}
+
+.add_notes{
+    width: 95%;
+    height: 170px;
+    border-radius: 10px;
+    padding: 10px;
+    /* margin-right: 10px; */
+    font-family: 'Raleway';
+    line-height: 10px;
+}
+
+.applinks{
+    /* width: 95%; */
+    /* margin: 0 auto; */
+}
+
+.closemodal,
+.add-modal-closemodal:hover{
+    cursor: pointer;
+}
+
+.submit-add-app-bin{
+    text-align: center;
+    
+}
+.submit-app-add-btn{
+    padding: 5px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgb(40 39 39 / 20%);
+    background-color: #395b89;
+    color: white;
+    font-weight: bold;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    border: 0.1px solid black;
+    transition: box-shadow .3s;
+    cursor: pointer;
+}
+
+.submit-app-add-btn:hover{
+    box-shadow: 0 0 10px rgb(40 39 39 / 90%);
+}
+
+/*End of Edit App Modal*/
+
+
+
+/*Tile part of edit*/
+.add_tile_container{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    flex-basis: 50%;
+    background-color: #efefef;
+    padding: 5px 20px;
+    border-radius: 20px;
+    /* margin-right: 20px; */
+    /* box-shadow: 0 0 7px rgb(122 122 122); */
+    transition: background-color .5s ease-in-out;
+    /* max-width: 255px; */
+    margin-top: 15px;
+    /* border: 1px solid black; */
+}
+
+.add_tile_header {
+    display: flex;
+    justify-content: space-between; /* Add this line */
+    align-items: center;
+}
+
+.add_tile_firm_name {
+    display: inline-block;
+    margin: 0px;
+}
+
+.add_tile_app_checker {
+    display: inline-block;
+    order: 1; /* Add this line */
+    width: auto;
+}
+
+.add_tile_link_name a{
+    color: black;
+    text-decoration: none;
+}
+
+.add_tile_date{
+    text-align: right;
+}
+
+.add_tile_logo_checker_cont {
+    display: flex;
+    justify-content: space-between;
+    align-items: center; /* Align the image to the top */
+    height: 60px;
+}
+
+.add_tile_logo_checker_cont .tile_image_container {
+    display: flex;
+    align-items: flex-start;
+}
+
+.add_tile_logo_checker_cont .add_tile_input_container {
+    display: flex;
+    align-items: flex-end; /* Align the input to the bottom (right) */
+}
+
+.add_tile_logo_checker_cont img {
+    max-width: 225px; /* Adjust the maximum width as needed */
+    min-height: 90px; /* Adjust the height as needed */
+    max-height: 160px;
+    object-fit: contain;
+}
+
+.add_tile_image_container{
+    margin:0 auto;
+}
+
+#app_location{
+    padding: 0px 0px 5px 0px;
+    margin: 10px 0px 2px;
+    font-size: 18px;
+    display: inline-block;
+}
+
+#app_location_selector{
+    background-color: white;
+    padding: 5px 10px;
+}
+
+.add_tile_link_box{
+    margin: 7.5px 0px;
+}
+
+.add_app_location_selector option{
+    padding: 10px;
+}
+
+.add_tile_link_name{
+    font-size: 18px;
+}
+.add_tile_location_date{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 5px;
+    font-size: 18px;
+}
+
+.add_tile_location{
+    color: black;
+}
+
+.add_tile_date{
+    flex-order: 1;
+}
+
+.add_tile_link_for_add_only{
+    display: none;
+}
+
+#add_app:hover{
+    cursor: pointer;
+}
+
+.app_add_tile_firm_name{
+  font-size: 25px;
+}
+
+
+.app-bank-input{
+    width: fit-content;
+    font-size: 15px;
+    padding: 8px;
+}
+
+.add_header{
+    display: block;
+    font-size: 18px;
+    text-align: center;
+    font-weight: 500;
+    font-family: 'Raleway';
+}

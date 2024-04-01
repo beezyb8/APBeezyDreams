@@ -1,0 +1,138 @@
+/*ToolTip*/
+
+.tooltip {
+  position: relative;
+  display: inline-block;
+  border-bottom: 1px dotted black; /* If you want dots under the hoverable text */
+}
+
+/* Tooltip text */
+.tooltip .tooltiptext {
+  visibility: hidden;
+  width: 120px;
+  background-color: black;
+  color: #fff;
+  text-align: center;
+  padding: 5px 0;
+  border-radius: 6px;
+  bottom: 100%;
+  left: 50%;
+  margin-left: -60px; 
+  /* Position the tooltip text - see examples below! */
+  position: absolute;
+  z-index: 1;
+}
+
+.tooltip:hover{
+    cursor: pointer;
+}
+
+/* Show the tooltip text when you mouse over the tooltip container */
+.tooltip:hover .tooltiptext {
+  visibility: visible;
+}
+
+.contactmodal {
+    box-shadow: 0 0 20px rgb(40 39 39 / 80%);
+    background-color: gainsboro;
+    padding: 20px; /* Adjust padding as needed */
+    position: fixed;
+    z-index: 2;
+    top: -1000px; /* Vertically center */
+    left: 50%; /* Horizontally center */
+    transform: translateX(-50%); /* Center using translate */
+    width: 50%;
+    height: 600px;
+    opacity: 0%; /* Set opacity to 100% to make it visible */
+    transition: opacity 1s, transform 1s; /* Combine transitions */
+    font-family: Raleway;
+}
+
+.input-field{
+    background: #eaeaea;
+    margin: 15px 0;
+    border-radius: 3px;
+    display: flex;
+    align-items: center;
+}
+
+.input-field>i{
+    margin-left: 15px;
+    color:#999;
+    font-size: 18px;
+}
+
+input{
+    width: 80%;
+    background: transparent;
+    border: 0;
+    outline: 0;
+    padding: 18px 15px;
+}
+
+select{
+    width: 90%;
+    background: transparent;
+    border: 0;
+    outline: 0;
+    padding: 18px 15px;
+}
+
+.modal_header{
+    font-size: 150px;
+    text-align: center;
+}
+
+.js-add-contact{
+    width: 70%;
+    margin: 0 auto;
+}
+
+
+
+/*Edit Contact Modal*/
+
+.edit_contactmodal {
+    box-shadow: 0 0 20px rgb(40 39 39 / 80%);
+    background-color: gainsboro;
+    padding: 20px; /* Adjust padding as needed */
+    position: fixed;
+    z-index: 2;
+    top: -1000px; /* Vertically center */
+    left: 50%; /* Horizontally center */
+    transform: translateX(-50%); /* Center using translate */
+    width: 50%;
+    height: 600px;
+    overflow-y: scroll;
+    scrollbar: none;
+    border-radius: 20px;
+    opacity: 0%; /* Set opacity to 100% to make it visible */
+    transition: opacity 1s, transform 1s; /* Combine transitions */
+}
+
+.edit_modal_header{
+    font-size: 70px;
+    text-align: center;
+}
+
+.edit_notes{
+    width: 95%;
+    height: 170px;
+    border-radius: 10px;
+    padding: 10px;
+    /* margin-right: 10px; */
+    font-family: 'Raleway';
+    line-height: 10px;
+}
+
+.edit_js-edit-contact{
+    width: 70%;
+    margin: 0 auto;
+}
+
+.closemodal,
+.edit-modal-closemodal:hover{
+    cursor: pointer;
+}
+
+/*End of Edit Contact Modal*/

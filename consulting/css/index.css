@@ -1,0 +1,172 @@
+body{
+    background-color: white;
+    margin: 10px;
+    /* EDIT AT LATER DATE */
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background-image: url("../images/logos/nycskyline.jpg");
+}
+
+
+.top_logo{
+    width: 100%
+}
+
+.top_logo_cont{
+    width: 55%;
+    margin: auto;
+}
+
+.logo_and_about{
+    width: 65%;
+    margin: 0 auto;
+    margin-top: 50px;
+    margin-bottom: 300px;
+    box-shadow: 0 0 20px rgb(40 39 39 / 500%);
+    background-color: white;
+}
+
+.entire-bin{
+    text-align: center;
+}
+
+/*Forms*/
+.js-register{
+    display: none;
+}
+
+.form-bin{
+    width: 45%;
+    margin: auto;
+}
+
+/*Inputs and Such*/
+.labelish{
+    text-align: center;
+    color: #244f89;
+}
+
+.input-field{
+    background: #eaeaea;
+    margin: 15px 0;
+    border-radius: 3px;
+    display: flex;
+    align-items: center;
+}
+
+.input-field>i{
+    margin-left: 15px;
+    color:#999;
+    font-size: 18px;
+}
+
+input{
+    width: 100%;
+    background: transparent;
+    border: 0;
+    outline: 0;
+    padding: 18px 15px;
+}
+
+select{
+    width: 100%;
+    background: transparent;
+    border: 0;
+    outline: 0;
+    padding: 18px 10px;
+}
+
+
+option:first{
+    color: #999;
+}
+
+.bi-fill-lock{
+    width: 30px;
+}
+
+.submit-bin{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.submit-button{
+    color: black;
+    border: 0;
+    outline: 0;
+    padding: 8px;
+    width: 50%;
+    margin: 0 auto;
+    border-radius: 3px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: box-shadow 1s;
+}
+
+.submit-button:hover{
+    box-shadow: 0 0 10px rgb(40 39 39 / 50%);
+}
+
+/*Bottom Buttons*/
+
+.btn-cont{
+    width: 45%;
+    margin: 0 auto;
+    padding-top: 50px;
+    padding-bottom: 100px;
+}
+
+.switch-field{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.switch-btn{
+    flex-basis: 46%;
+    background: #244f89;
+    color: white;
+    height: 30px;
+    border-radius: 20px;
+    border: 0;
+    outline: 0;
+    cursor: pointer;
+    box-shadow: 0 0 10px rgb(40 39 39 / 50%);
+    transition: background .5s; 
+}
+
+.disable{
+    background: white;
+    color: #244f89;
+    box-shadow: 0 0 10px rgb(36 79 137 / 50%)
+}
+
+.sup_cont{
+    text-align: center;
+}
+
+.support{
+    padding: 10px;
+    margin: 0 auto;
+    font-weight: normal;
+}
+
+@media(max-width: 800px){
+    .top_logo_cont{
+        width: 80%;
+    }
+    
+    .form-bin{
+        width: 80%;
+    }
+   .btn-cont{
+        width: 75%;
+    }
+}
+
+
+@media(max-width: 450px){
+    .btn-cont{
+        width: 90%;
+    }
+}

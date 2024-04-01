@@ -1,0 +1,368 @@
+/*New Content*/
+
+@keyframes slideUp{
+    from{
+        transform: translateY(400px);
+    }
+    to{
+        transform: translateY(0);
+    }
+    
+}
+
+.date_td{
+    background-color: #dedede;
+}
+
+.outside_table_container{
+    margin: 0px 25px;
+    /* background-image: linear-gradient(to bottom,white,#e6e4e4); */
+    background: #fbfbfb;
+    animation: slideUp 1.2s ease-in-out;
+    border-radius: 20px;
+    margin-bottom: 1000px;
+}
+
+.table_container{
+    /* background-color: gainsboro; */
+    /* margin-left: 40px; */
+    /* margin-right: 40px; */
+    align-items: center;
+    /* box-shadow: 0 0 100px rgb(40 39 39 / 100%); */
+    padding: 5px;
+    padding-bottom: 30px;
+    border-radius: 20px;
+    overflow-x: scroll;
+    margin-top: 30px;
+    box-shadow: 0 0 20px rgb(122 122 122);
+    background-color: #fbfbfb;
+}
+
+.header{
+    text-align: center;
+}
+
+.form_filter_header{
+    text-align: center;
+    margin-bottom: 2px;
+}
+
+.filter_contact_form{
+    margin-bottom: 18px;
+}
+
+.filter_checks_cont{
+    display: flex;
+    justify-content: center;
+}
+
+.btn_checks_cont{
+    display: flex;
+    justify-content: center;
+}
+.filter_checker{
+    margin: 0px 2px 0px 20px;
+}
+
+@media(max-width: 800px){
+    .nworktable{
+        overflow-x: scroll;
+    }
+}
+
+@media(max-width: 500px){
+    .checkboxhead{
+        font-size: 10px;
+    }
+    .date_tit{
+        font-size: 10px;
+    }
+    .bank_tit{
+        font-size: 10px;
+    }
+    .notes_tit{
+        font-size: 10px;
+    }
+    .contact_title{
+        font-size: 10px;
+    }
+    #editbtnid{
+        font-size: 10px;
+    }
+    .contacttitle,
+    .date_td,
+    .bank_td{
+        font-size: 10px;
+    }
+    .nworktable{
+        margin-left: 2px;
+        margin-right: 2px;
+        width: 90%;
+    }
+}
+
+
+/*^New Content*/
+
+
+/*CHANGES FROM NORMAL*/
+
+.nworktable{
+    width: -webkit-fill-available;
+    border-collapse: collapse;
+    border-left: 2px solid black;
+    border-right: 2px solid black;
+    border-top: 2px solid black;
+    background-color: #dddddd;
+    overflow-x: scroll;
+    margin-left: 30px;
+    margin-right: 30px;
+    padding: 10px 0px;
+}
+
+.notes_tit{
+    width: 40%;
+    min-width: 100px;
+}
+
+/*^CHANGES FROM NORMAL*/
+
+
+
+.contactmodal{
+    border: 1px solid black;
+    background-color: white;
+    padding: 10px;
+    margin-top: 5px;
+    display: none;
+}
+
+.nworktable>.nworkhead{
+    border-bottom: 3px solid black;
+    width: 100%;
+}
+
+.contact_title{
+    width: 20%;
+}
+
+
+.checkboxhead{
+    margin: 5px 7px;
+}
+
+.contacttitle{
+    text-align: center;
+    font-size: 17px;
+    background-color: #dddddd;
+}
+
+.table_body>tr{
+    border-bottom: 2px solid black;
+    transition: background-color .25s;
+}
+
+.table_body>tr>.contacttitle,
+.date_td,
+.bank_td,
+.coldemail,
+.callsched,
+.call,
+.thankyou{
+    text-align: center;
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+}
+
+.nocontacts{
+    display: inline-block;
+    margin-left: 20px;
+}
+
+.newcontact{
+    margin-left: 20px;
+}
+
+.contactmodal{
+    margin-left: 20px;
+    border-radius: 20px;
+}
+
+.notes{
+    text-align: left;
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+    background-color: #dddddd;
+    transition: all .5s;
+    transition-delay: .25s;
+}
+
+.notes:hover{
+    background-color: #eeeeee;
+}
+
+#notetextarea{
+    background-color: #dddddd;
+    width: -webkit-fill-available;
+    border: 2px solid transparent;
+    border-radius: 10px;
+    margin: 5px 5px 0px 5px;
+    align-self: center;
+    resize: none;
+    outline: none;
+    min-height: 0;
+    padding: 1em;
+    font-family: sans-serif;
+    font-size: 16px;
+    line-height: 1.4;
+    transition: all 0.5s;
+    transition-delay: .25s;
+    overflow-y: clip;
+}
+
+#notetextarea:hover{
+    cursor: pointer;
+    background-color: #eeeeee
+}
+
+#notetextarea:focus{
+    cursor: text;
+    color: #333333;
+    background-color: white;
+    border-color: #333333;
+}
+
+#textchangebtn{
+    display: none;
+    padding: 5px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgb(40 39 39 / 20%);
+    background-color: #395b89;
+    color: white;
+    font-weight: bold;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-left: 5px;
+    border: 0.1px solid black;
+    transition: box-shadow .3s;
+    cursor: pointer;
+}
+
+#textchangebtn:hover{
+    box-shadow: 0 0 10px rgb(40 39 39 / 90%);
+}
+
+.editct{
+    display: none;
+}
+
+.editcontbtn{
+    background-color: white;
+    border-radius: 10px;
+    border: 1px solid black;
+}
+
+.editcontbtn:hover{
+    font-size: 14px;
+}
+
+.exiteditmode{
+    background-color: white;
+    border-radius: 10px;
+    border: 1px solid black;
+}
+
+#editctnamebtn{
+    background-color: rgb(32, 142, 32);
+    border: 1px solid black;
+    border-radius: 10px;
+    font-weight: bold;
+    margin-top: 5px;
+}
+
+#deletectnamebtn{
+    background-color: rgb(211, 77, 77);
+    border: 1px solid black;
+    border-radius: 10px;
+    font-weight: bold;
+}
+
+.editct{
+    background-color: white;
+    border-radius: 5px;
+    border: 1px solid black;
+}
+
+.colddone{
+    background-color: #ffd383;
+}
+
+.callscheddone{
+    background-color: #ffff84;
+}
+
+
+.callhaddone{
+    background-color: #ff7272;
+}
+
+.thankyoudone{
+    background-color: #43b349;
+}
+
+
+
+@media(max-width: 500px){
+    .checkboxhead{
+        font-size: 10px;
+    }
+    .notes_tit{
+        font-size: 10px;
+    }
+    .contact_title{
+        font-size: 10px;
+    }
+    #editbtnid{
+        font-size: 10px;
+    }
+    .contacttitle{
+        font-size: 10px;
+    }
+    .nworktable{
+        margin-left: 2px;
+        margin-right: 2px;
+        width: 90%;
+    }
+}
+
+/*Button Design*/
+.btn_guo{
+    padding: 5px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgb(40 39 39 / 20%);
+    background-color: #395b89;
+    color: white;
+    font-weight: bold;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    border: 0.1px solid black;
+    transition: box-shadow .3s;
+    cursor: pointer;
+}
+
+.btn_guo:hover{
+    box-shadow: 0 0 10px rgb(40 39 39 / 90%);
+}
+
+
+.date_td{
+    background-color: #dddddd;
+}
+
+.bank_td{
+ background-color: #dddddd;   
+}

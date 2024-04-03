@@ -23,6 +23,8 @@
                 //User is in
                 session_start();
                 $_SESSION['user_id'] = $user_id;
+                $expire = time() + (60 *  60  *  24 * 7);
+                setcookie('PHPSESSID', session_id(), $expire, '/');
                 
                 $atsql = "UPDATE users SET accesstoken = :accesstoken WHERE user_id = :user_id";
                 $fixat = $con->prepare($atsql);

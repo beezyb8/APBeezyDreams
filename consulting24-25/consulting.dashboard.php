@@ -139,7 +139,7 @@ $allfirmsfav->execute();
                                 <div class="top_left_container">
                                     <div class="news_outer_cont">
                                         <span class="news_header_cont">
-                                            <h3>MLU's Top News</h3>
+                                            <h3>MLU's Top News (4/1)</h3>
                                         </span>
                                         <div class="news_container">
                                             <div class="deal_activity_cont">
@@ -147,15 +147,15 @@ $allfirmsfav->execute();
                                                     Consulting News
                                                 </span>
                                                 <div class="deal_container">
-                                                    <div class="deal_title">1. Oliver Wyman acquires consulting firm Innopay in a move to enhance their digital transactions practice. Innopay is now positioned as a “specialist consulting entity” within OW’s European operations. The deal has not yet closed, but is expected to within the next couple months &nbsp; <a href="https://www.theconsultingreport.com/oliver-wyman-expands-payments-consulting-with-acquisition-of-innopay/" target="blank">The Consulting Report</a></div>
+                                                    <div class="deal_title">1. West Monroe has entered into a strategic partnership with Backbase, a firm known for their Engagement Banking Platform. This alliance will help accelerate digital capabilities for banks and credit union clients across the globe by allowing them to simplify and elevate their offerings &nbsp; <a href="https://www.westmonroe.com/press-releases/west-monroe-backbase-enter-partnership-to-accelerate-digital-capacbilities-for-banks-credit-unions" target="blank">West Monroe</a></div>
                                                 <!--    <div class="deal_written">Lead Advisors: Goldman Sachs</div>-->
                                                 </div>                                            
                                                 <div class="deal_container">
-                                                    <div class="deal_title">2. Accenture recently invested in Tenchi Security, a software-as-a-service (SaaS) company that focuses on cybersecurity across the supply chain. The transaction was performed through Accenture Ventures, their corporate venture capital arm &nbsp; <a href="https://www.theconsultingreport.com/accenture-enhances-cybersecurity-portfolio-with-tenchi-security-investment/" target="blank">The Consulting Report</a></div>
+                                                    <div class="deal_title">2. BCG and Madiant, a Google Cloud division focused on cybersecurity services, have reached an agreement on a partnership. Together, they will help clients determine their most threatening cyber risks and create plans and procedures to mitigate attacks &nbsp; <a href="https://www.consulting.us/news/10400/boston-consulting-group-partners-with-mandiant-on-cyber-consulting" target="blank">The Consulting.us</a></div>
                                                     <!--<div class="deal_written">Lead Advisors: BofA, Goldman Sachs, Rothschild & Co</div>-->
                                                 </div>
                                                 <div class="deal_container">
-                                                    <div class="deal_title">3. Payslip and Deloitte agree to form a strategic alliance. As a result of the deal, Deloitte will leverage Payslip’s technology to enhance and unify their payroll service to their clients. It’s estimated that this alliance will impact businesses in 125+ countries across the world &nbsp; <a href="https://www.theconsultingreport.com/payslip-and-deloitte-form-strategic-alliance-to-revolutionize-global-payroll-solutions/" target="blank">The Consulting Report</a></div>
+                                                    <div class="deal_title">3. Dallas headquartered consulting firm Embark recently opened up an office in NYC. The firm is known for their work in the financial services and private equity space, and expanding their reach will better equip the growing firm in the future. The firm also added former CEO of Deloitte, Barry Salzberg, to its board of directors, who has a depth of experience and a strong network in NYC &nbsp; <a href="https://www.consulting.us/news/10478/consulting-firm-embark-expands-into-northeast-with-new-york-city-office" target="blank">The Consulting.us</a></div>
                                                     <!--<div class="deal_written">Lead Advisors: N/A</div>-->
                                                 </div>
                                             </div>

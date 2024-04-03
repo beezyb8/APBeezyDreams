@@ -139,7 +139,7 @@ $allfirmsfav->execute();
                                 <div class="top_left_container">
                                     <div class="news_outer_cont">
                                         <span class="news_header_cont">
-                                            <h3>MLU's Top News</h3>
+                                            <h3>MLU's Top News (4/1)</h3>
                                         </span>
                                         <div class="news_container">
                                             <div class="deal_activity_cont">
@@ -147,16 +147,16 @@ $allfirmsfav->execute();
                                                     M&A Deal Activity
                                                 </span>
                                                 <div class="deal_container">
-                                                    <div class="deal_title">1. Pharmaceutical company Merck has agreed to purchase Elanco’s aqua business for approximately $1.3 billion. This deal represents Merck’s investment into the animal-health space, as it includes a portfolio of medicines, vaccines, supplements, and nutritionals geared towards aquatic species &nbsp; <a href="https://www.wsj.com/business/deals/merck-to-buy-elancos-aqua-business-for-1-3-billion-1e9cb056" target="blank">WSJ</a></div>
-                                                    <div class="deal_written">Lead Advisors: Goldman Sachs</div>
+                                                    <div class="deal_title">1. Home Depot is moving into the wholesale market as its core retail business has slowed since the pandemic. SRS is a distributor of building products to roofing contractors in the US, and now Home Depot will be able to serve these professionals' needs. SRS was owned by private-equity firms prior to the acquisition, and the deal is worth just over $18b &nbsp; <a href="https://www.wsj.com/business/deals/home-depot-buys-roofing-distributor-in-deal-valued-at-18-billion-including-debt-a12bb6e3?mod=deals_news_article_pos5" target="blank">WSJ</a></div>
+                                                    <div class="deal_written">Lead Advisors: JP Morgan, Goldman Sachs, Jefferies</div>
                                                 </div>                                            
                                                 <div class="deal_container">
-                                                    <div class="deal_title">2. Willscot Mobile Mini Holdings acquired McGrath RentCorp in a deal worth approximately $3 billion. Willscot operates by leasing out trailers to customers for flexible workspace and portable storage solutions. McGrath similarly rents and sells modular buildings that can be used as classrooms, offices, and restrooms, which will now help Willscot grow for years to come &nbsp; <a href="https://www.wsj.com/business/deals/portable-building-companies-near-3-billion-merger-84e5de3a?mod=deals_news_article_pos3" target="blank">WSJ</a></div>
-                                                    <div class="deal_written">Lead Advisors: BofA, Goldman Sachs, Rothschild & Co</div>
+                                                    <div class="deal_title">2. Schlumberger, an American oilfield services company, has invested ~$400m to acquire 80% of Aker Carbon Capture. Aker, founded in 2020 in Norway, is known for building carbon capture solutions, completing some major projects since its inception. Schlumberger said that it’s going to contribute its own carbon-capture business to the combined venture &nbsp; <a href="https://www.wsj.com/business/deals/schlumberger-to-invest-nearly-400-million-in-carbon-capture-venture-3ba63337?mod=deals_more_article_pos1" target="blank">WSJ</a></div>
+                                                    <div class="deal_written">Lead Advisors: N/A</div>
                                                 </div>
                                                 <div class="deal_container">
-                                                    <div class="deal_title">3. David Rubenstein and his investment group are in an agreement with The Baltimore Orioles to purchase a controlling stake of the organization for $1.725 billion from the Angelos family. While a few more steps need to be taken for Rubenstein to officially take over, this continues the recent change-of-ownership trend within major league sports teams &nbsp; <a href="https://www.cnbc.com/2024/01/31/david-rubenstein-has-a-deal-to-buy-the-baltimore-orioles-for-1point725-billion-ap-source-says.html" target="blank">CNBC</a></div>
-                                                    <div class="deal_written">Lead Advisors: N/A</div>
+                                                    <div class="deal_title">3. Nuvei, a Canadian payments processing company, has agreed to be purchased by PE firm Advent International. This is an all-cash deal worth approximately $6.3b. Under the agreement terms, Philip Fayer (Nuvei’s founder, chairman, and CEO) will continue his role with the company &nbsp; <a href="https://www.wsj.com/business/deals/nuvei-agrees-deal-to-be-taken-private-1c0d0d58?mod=deals_news_article_pos1" target="blank">WSJ</a></div>
+                                                    <div class="deal_written">Lead Advisors: Barclays, TD Securities</div>
                                                 </div>
                                             </div>
                                             <!--Scrapped split news box-->

@@ -218,98 +218,6 @@ for ($i = 1; $i <= 20; $i++) {
                                 <div class='tile_container'>
                                     <div class='tile_logo_checker_cont'>
                                         <div class='tile_image_container'>
-                                            <img src = 'images/banklogos/rbc.png'>
-                                        </div>
-                                        <div class='tile_input_container'>
-                                            <i class="bi bi-plus-square-fill" id="add_app"></i>
-                                            </div>
-                                        </div>
-                                        <div class='tile_link_box' onclick=window.open('https://jobs.rbc.com/ca/en/job/R-0000067336/2025-Capital-Markets-Global-Investment-Banking-Summer-Analyst','_blank');>
-                                            <div class='tile_header'>
-                                                <h3 class='tile_firm_name'>RBC</h3>
-                                            </div>
-                                            <div class='tile_body'>
-                                                <div class='tile_link_name'>2025 Capital Markets, Global Investment Banking Summer Analyst</div>
-                                                <div class='tile_link_for_add_only'>https://jobs.rbc.com/ca/en/job/R-0000067336/2025-Capital-Markets-Global-Investment-Banking-Summer-Analyst</div>
-                                                <div class='tile_location_date'>
-                                                    <div class='tile_location'>NY</div>
-                                                <div class='tile_date'>3/2/24</div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class='tile_container'>
-                                    <div class='tile_logo_checker_cont'>
-                                        <div class='tile_image_container'>
-                                            <img src = 'images/banklogos/rothschildco.png'>
-                                        </div>
-                                        <div class='tile_input_container'>
-                                            <i class="bi bi-plus-square-fill" id="add_app"></i>
-                                            </div>
-                                        </div>
-                                        <div class='tile_link_box' onclick=window.open('https://www.rothschildandco.com/en/careers/students-and-graduates/opportunities/gaus-2025-global-advisory-summer-analyst/','_blank');>
-                                            <div class='tile_header'>
-                                                <h3 class='tile_firm_name'>Rothschild & Co</h3>
-                                            </div>
-                                            <div class='tile_body'>
-                                                <div class='tile_link_name'>US 2025 Global Advisory Summer Analyst</div>
-                                                <div class='tile_link_for_add_only'>https://www.rothschildandco.com/en/careers/students-and-graduates/opportunities/gaus-2025-global-advisory-summer-analyst/</div>
-                                                <div class='tile_location_date'>
-                                                    <div class='tile_location'>NY</div>
-                                                <div class='tile_date'>3/10/24</div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class='tile_container'>
-                                    <div class='tile_logo_checker_cont'>
-                                        <div class='tile_image_container'>
-                                            <img src = 'images/banklogos/macquarie.png'>
-                                        </div>
-                                        <div class='tile_input_container'>
-                                            <i class="bi bi-plus-square-fill" id="add_app"></i>
-                                            </div>
-                                        </div>
-                                        <div class='tile_link_box' onclick=window.open('https://recruitment.macquarie.com/en_US/careers/JobDetail?jobId=7629#','_blank');>
-                                            <div class='tile_header'>
-                                                <h3 class='tile_firm_name'>Macquarie</h3>
-                                            </div>
-                                            <div class='tile_body'>
-                                                <div class='tile_link_name'>2025 Macquarie Capital Summer Analyst Internship Program</div>
-                                                <div class='tile_link_for_add_only'>https://recruitment.macquarie.com/en_US/careers/JobDetail?jobId=7629#</div>
-                                                <div class='tile_location_date'>
-                                                    <div class='tile_location'>ALL</div>
-                                                <div class='tile_date'>3/15/24</div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class='tile_container'>
-                                    <div class='tile_logo_checker_cont'>
-                                        <div class='tile_image_container'>
-                                            <img src = 'images/banklogos/evercore.png'>
-                                        </div>
-                                        <div class='tile_input_container'>
-                                            <i class="bi bi-plus-square-fill" id="add_app"></i>
-                                            </div>
-                                        </div>
-                                        <div class='tile_link_box' onclick=window.open('https://evercore.tal.net/vx/lang-en-GB/mobile-0/channel-1/appcentre-1/brand-6/candidate/so/pm/1/pl/2/opp/2026-2025-Strategic-Advisory-Mergers-Acquisitions-Summer-Analyst-Program-New-York-Houston-Menlo-Park-Chicago-Toronto-San-Francisco/en-GB','_blank');>
-                                            <div class='tile_header'>
-                                                <h3 class='tile_firm_name'>Evercore</h3>
-                                            </div>
-                                            <div class='tile_body'>
-                                                <div class='tile_link_name'>2025 Strategic Advisory: Mergers & Acquisitions Summer Analyst Program</div>
-                                                <div class='tile_link_for_add_only'>https://evercore.tal.net/vx/lang-en-GB/mobile-0/channel-1/appcentre-1/brand-6/candidate/so/pm/1/pl/2/opp/2026-2025-Strategic-Advisory-Mergers-Acquisitions-Summer-Analyst-Program-New-York-Houston-Menlo-Park-Chicago-Toronto-San-Francisco/en-GB</div>
-                                                <div class='tile_location_date'>
-                                                    <div class='tile_location'>ALL</div>
-                                                <div class='tile_date'>3/17/24</div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class='tile_container'>
-                                    <div class='tile_logo_checker_cont'>
-                                        <div class='tile_image_container'>
                                             <img src = 'images/banklogos/jpmorgan.png'>
                                         </div>
                                         <div class='tile_input_container'>
@@ -333,167 +241,6 @@ for ($i = 1; $i <= 20; $i++) {
                                 <div class='tile_container'>
                                     <div class='tile_logo_checker_cont'>
                                         <div class='tile_image_container'>
-                                            <img src = 'images/banklogos/houlihanlokey.png'>
-                                        </div>
-                                        <div class='tile_input_container'>
-                                            <i class="bi bi-plus-square-fill" id="add_app"></i>
-                                            </div>
-                                        </div>
-                                        <div class='tile_link_box' onclick=window.open('https://hl.wd1.myworkdayjobs.com/en-US/Campus/job/New-York-USA/Summer-Financial-Analyst-2025---Financial-Restructuring--New-York_R1270','_blank');>
-                                            <div class='tile_header'>
-                                                <h3 class='tile_firm_name'>Houlihan Lokey</h3>
-                                            </div>
-                                            <div class='tile_body'>
-                                                <div class='tile_link_name'>2025 Summer Financial Analyst - Financial Restructuring - New York</div>
-                                                <div class='tile_link_for_add_only'>https://hl.wd1.myworkdayjobs.com/en-US/Campus/job/New-York-USA/Summer-Financial-Analyst-2025---Financial-Restructuring--New-York_R1270</div>
-                                                <div class='tile_location_date'>
-                                                    <div class='tile_location'>NY</div>
-                                                <div class='tile_date'>TBD</div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class='tile_container'>
-                                    <div class='tile_logo_checker_cont'>
-                                        <div class='tile_image_container'>
-                                            <img src = 'images/banklogos/lazard.png'>
-                                        </div>
-                                        <div class='tile_input_container'>
-                                            <i class="bi bi-plus-square-fill" id="add_app"></i>
-                                            </div>
-                                        </div>
-                                        <div class='tile_link_box' onclick=window.open('https://lazard-careers.tal.net/vx/lang-en-GB/mobile-1/appcentre-1/brand-4/candidate/so/pm/1/pl/2/opp/1673-2025-Financial-Advisory-Summer-Analyst-Program-New-York-M-A-Restructuring-Generalist/en-GB','_blank');>
-                                            <div class='tile_header'>
-                                                <h3 class='tile_firm_name'>Lazard</h3>
-                                            </div>
-                                            <div class='tile_body'>
-                                                <div class='tile_link_name'>2025 Financial Advisory Summer Analyst Program - New York M&A / Restructuring Generalist</div>
-                                                <div class='tile_link_for_add_only'>https://lazard-careers.tal.net/vx/lang-en-GB/mobile-1/appcentre-1/brand-4/candidate/so/pm/1/pl/2/opp/1673-2025-Financial-Advisory-Summer-Analyst-Program-New-York-M-A-Restructuring-Generalist/en-GB</div>
-                                                <div class='tile_location_date'>
-                                                    <div class='tile_location'>NY</div>
-                                                <div class='tile_date'>TBD</div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class='tile_container'>
-                                    <div class='tile_logo_checker_cont'>
-                                        <div class='tile_image_container'>
-                                            <img src = 'images/banklogos/morganstanley.png'>
-                                        </div>
-                                        <div class='tile_input_container'>
-                                            <i class="bi bi-plus-square-fill" id="add_app"></i>
-                                            </div>
-                                        </div>
-                                        <div class='tile_link_box' onclick=window.open('https://morganstanley.tal.net/vx/lang-en-GB/mobile-0/brand-2/candidate/so/pm/1/pl/1/opp/17261-2025-Investment-Banking-Summer-Analyst-Program-United-States/en-GB','_blank');>
-                                            <div class='tile_header'>
-                                                <h3 class='tile_firm_name'>Morgan Stanley</h3>
-                                            </div>
-                                            <div class='tile_body'>
-                                                <div class='tile_link_name'>2025 Investment Banking Summer Analyst Program (United States)</div>
-                                                <div class='tile_link_for_add_only'>https://morganstanley.tal.net/vx/lang-en-GB/mobile-0/brand-2/candidate/so/pm/1/pl/1/opp/17261-2025-Investment-Banking-Summer-Analyst-Program-United-States/en-GB</div>
-                                                <div class='tile_location_date'>
-                                                    <div class='tile_location'>ALL</div>
-                                                <div class='tile_date'>TBD</div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class='tile_container'>
-                                    <div class='tile_logo_checker_cont'>
-                                        <div class='tile_image_container'>
-                                            <img src = 'images/banklogos/raine.png'>
-                                        </div>
-                                        <div class='tile_input_container'>
-                                            <i class="bi bi-plus-square-fill" id="add_app"></i>
-                                            </div>
-                                        </div>
-                                        <div class='tile_link_box' onclick=window.open('https://jobs.lever.co/raine/39daa535-8543-4848-b132-6f2b670aa59a','_blank');>
-                                            <div class='tile_header'>
-                                                <h3 class='tile_firm_name'>Raine</h3>
-                                            </div>
-                                            <div class='tile_body'>
-                                                <div class='tile_link_name'>2025 Summer Analyst</div>
-                                                <div class='tile_link_for_add_only'>https://jobs.lever.co/raine/39daa535-8543-4848-b132-6f2b670aa59a</div>
-                                                <div class='tile_location_date'>
-                                                    <div class='tile_location'>NY</div>
-                                                <div class='tile_date'>TBD</div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class='tile_container'>
-                                    <div class='tile_logo_checker_cont'>
-                                        <div class='tile_image_container'>
-                                            <img src = 'images/banklogos/mkleinco.png'>
-                                        </div>
-                                        <div class='tile_input_container'>
-                                            <i class="bi bi-plus-square-fill" id="add_app"></i>
-                                            </div>
-                                        </div>
-                                        <div class='tile_link_box' onclick=window.open('https://mklein.typeform.com/MKlein2025?typeform-source=www.google.com','_blank');>
-                                            <div class='tile_header'>
-                                                <h3 class='tile_firm_name'>M. Klein & Co</h3>
-                                            </div>
-                                            <div class='tile_body'>
-                                                <div class='tile_link_name'>M. Klein and Company Application Form</div>
-                                                <div class='tile_link_for_add_only'>https://mklein.typeform.com/MKlein2025?typeform-source=www.google.com</div>
-                                                <div class='tile_location_date'>
-                                                    <div class='tile_location'>NY</div>
-                                                <div class='tile_date'>TBD</div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class='tile_container'>
-                                    <div class='tile_logo_checker_cont'>
-                                        <div class='tile_image_container'>
-                                            <img src = 'images/banklogos/pjt.png'>
-                                        </div>
-                                        <div class='tile_input_container'>
-                                            <i class="bi bi-plus-square-fill" id="add_app"></i>
-                                            </div>
-                                        </div>
-                                        <div class='tile_link_box' onclick=window.open('https://boards.greenhouse.io/pjtpartnersstudents/jobs/4362486005','_blank');>
-                                            <div class='tile_header'>
-                                                <h3 class='tile_firm_name'>PJT</h3>
-                                            </div>
-                                            <div class='tile_body'>
-                                                <div class='tile_link_name'>2025 Summer Analyst - Restructuring & Special Situations Group</div>
-                                                <div class='tile_link_for_add_only'>https://boards.greenhouse.io/pjtpartnersstudents/jobs/4362486005</div>
-                                                <div class='tile_location_date'>
-                                                    <div class='tile_location'>NY</div>
-                                                <div class='tile_date'>TBD</div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class='tile_container'>
-                                    <div class='tile_logo_checker_cont'>
-                                        <div class='tile_image_container'>
-                                            <img src = 'images/banklogos/jefferies.png'>
-                                        </div>
-                                        <div class='tile_input_container'>
-                                            <i class="bi bi-plus-square-fill" id="add_app"></i>
-                                            </div>
-                                        </div>
-                                        <div class='tile_link_box' onclick=window.open('https://jefferies.tal.net/vx/lang-en-GB/mobile-0/appcentre-1/brand-4/xf-f87111c9c2d8/candidate/so/pm/1/pl/2/opp/1073-2025-Investment-Banking-Summer-Analyst-Program-New-York-Generalist/en-GB','_blank');>
-                                            <div class='tile_header'>
-                                                <h3 class='tile_firm_name'>Jefferies</h3>
-                                            </div>
-                                            <div class='tile_body'>
-                                                <div class='tile_link_name'>2025 Investment Banking Summer Analyst Program - New York, Generalist</div>
-                                                <div class='tile_link_for_add_only'>https://jefferies.tal.net/vx/lang-en-GB/mobile-0/appcentre-1/brand-4/xf-f87111c9c2d8/candidate/so/pm/1/pl/2/opp/1073-2025-Investment-Banking-Summer-Analyst-Program-New-York-Generalist/en-GB</div>
-                                                <div class='tile_location_date'>
-                                                    <div class='tile_location'>NY</div>
-                                                <div class='tile_date'>TBD</div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class='tile_container'>
-                                    <div class='tile_logo_checker_cont'>
-                                        <div class='tile_image_container'>
                                             <img src = 'images/banklogos/bankofamerica.png'>
                                         </div>
                                         <div class='tile_input_container'>
@@ -509,7 +256,7 @@ for ($i = 1; $i <= 20; $i++) {
                                                 <div class='tile_link_for_add_only'>https://campus.bankofamerica.com/careers/global_investment_banking_summer_analyst_program__2025.html</div>
                                                 <div class='tile_location_date'>
                                                     <div class='tile_location'>ALL</div>
-                                                <div class='tile_date'>TBD</div>
+                                                <div class='tile_date'>7/2/24</div>
                                             </div>
                                         </div>
                                     </div>
@@ -540,29 +287,6 @@ for ($i = 1; $i <= 20; $i++) {
                                 <div class='tile_container'>
                                     <div class='tile_logo_checker_cont'>
                                         <div class='tile_image_container'>
-                                            <img src = 'images/banklogos/ubs.png'>
-                                        </div>
-                                        <div class='tile_input_container'>
-                                            <i class="bi bi-plus-square-fill" id="add_app"></i>
-                                            </div>
-                                        </div>
-                                        <div class='tile_link_box' onclick=window.open('https://jobs.ubs.com/TGnewUI/Search/home/HomeWithPreLoad?partnerid=25008&siteid=5131&PageType=searchResults&SearchType=linkquery&LinkID=6558#jobDetails=287598_5131','_blank');>
-                                            <div class='tile_header'>
-                                                <h3 class='tile_firm_name'>UBS</h3>
-                                            </div>
-                                            <div class='tile_body'>
-                                                <div class='tile_link_name'>2025 Summer Analyst Program- Global Banking - New York</div>
-                                                <div class='tile_link_for_add_only'>https://jobs.ubs.com/TGnewUI/Search/home/HomeWithPreLoad?partnerid=25008&siteid=5131&PageType=searchResults&SearchType=linkquery&LinkID=6558#jobDetails=287598_5131</div>
-                                                <div class='tile_location_date'>
-                                                    <div class='tile_location'>NY</div>
-                                                <div class='tile_date'>TBD</div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class='tile_container'>
-                                    <div class='tile_logo_checker_cont'>
-                                        <div class='tile_image_container'>
                                             <img src = 'images/banklogos/greenhill.png'>
                                         </div>
                                         <div class='tile_input_container'>
@@ -576,52 +300,6 @@ for ($i = 1; $i <= 20; $i++) {
                                             <div class='tile_body'>
                                                 <div class='tile_link_name'>2025 Investment Banking Summer Analyst – M&A – New York</div>
                                                 <div class='tile_link_for_add_only'>https://greenhill.wd5.myworkdayjobs.com/en-US/SearchJobs/details/XMLNAME-2025-Investment-Banking-Summer-Analyst---M-A---New-York_GHL382</div>
-                                                <div class='tile_location_date'>
-                                                    <div class='tile_location'>NY</div>
-                                                <div class='tile_date'>TBD</div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class='tile_container'>
-                                    <div class='tile_logo_checker_cont'>
-                                        <div class='tile_image_container'>
-                                            <img src = 'images/banklogos/greenhill.png'>
-                                        </div>
-                                        <div class='tile_input_container'>
-                                            <i class="bi bi-plus-square-fill" id="add_app"></i>
-                                            </div>
-                                        </div>
-                                        <div class='tile_link_box' onclick=window.open('https://greenhill.wd5.myworkdayjobs.com/en-US/SearchJobs/details/XMLNAME-2025-Investment-Banking-Summer-Analyst---Restructuring---Financing-Advisory---New-York_GHL381','_blank');>
-                                            <div class='tile_header'>
-                                                <h3 class='tile_firm_name'>Greenhill</h3>
-                                            </div>
-                                            <div class='tile_body'>
-                                                <div class='tile_link_name'>2025 Investment Banking Summer Analyst – Restructuring & Financing Advisory – New York</div>
-                                                <div class='tile_link_for_add_only'>https://greenhill.wd5.myworkdayjobs.com/en-US/SearchJobs/details/XMLNAME-2025-Investment-Banking-Summer-Analyst---Restructuring---Financing-Advisory---New-York_GHL381</div>
-                                                <div class='tile_location_date'>
-                                                    <div class='tile_location'>NY</div>
-                                                <div class='tile_date'>TBD</div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class='tile_container'>
-                                    <div class='tile_logo_checker_cont'>
-                                        <div class='tile_image_container'>
-                                            <img src = 'images/banklogos/ftpartners.png'>
-                                        </div>
-                                        <div class='tile_input_container'>
-                                            <i class="bi bi-plus-square-fill" id="add_app"></i>
-                                            </div>
-                                        </div>
-                                        <div class='tile_link_box' onclick=window.open('https://www.linkedin.com/jobs/view/2025-summer-analyst-investment-banking-new-york-at-financial-technology-partners-ft-partners-3818997927/?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic','_blank');>
-                                            <div class='tile_header'>
-                                                <h3 class='tile_firm_name'>FT Partners</h3>
-                                            </div>
-                                            <div class='tile_body'>
-                                                <div class='tile_link_name'>2025 Summer Analyst, Investment Banking (New York)</div>
-                                                <div class='tile_link_for_add_only'>https://www.linkedin.com/jobs/view/2025-summer-analyst-investment-banking-new-york-at-financial-technology-partners-ft-partners-3818997927/?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic</div>
                                                 <div class='tile_location_date'>
                                                     <div class='tile_location'>NY</div>
                                                 <div class='tile_date'>TBD</div>
@@ -661,29 +339,7 @@ for ($i = 1; $i <= 20; $i++) {
                             </div>
                         </div>
                         <div class="app_tile_holder">
-                            <div class='tile_container'>
-                                <div class='tile_logo_checker_cont'>
-                                    <div class='tile_image_container'>
-                                        <img src = 'images/banklogos/lazard.png'>
-                                    </div>
-                                    <div class='tile_input_container'>
-                                        <i class="bi bi-plus-square-fill" id="add_app"></i>
-                                        </div>
-                                    </div>
-                                    <div class='tile_link_box' onclick=window.open('https://lazard-careers.tal.net/vx/lang-en-GB/mobile-0/appcentre-1/brand-4/xf-94f5afc2db11/candidate/so/pm/1/pl/2/opp/1674-U-S-2025-Summer-Analyst-Investment-Banking-Program-Lazard-Undergraduate-Fellowship-for-Leadership-in-Diversity-Equity-and-Inclusion/en-GB','_blank');>
-                                        <div class='tile_header'>
-                                            <h3 class='tile_firm_name'>Lazard</h3>
-                                        </div>
-                                        <div class='tile_body'>
-                                            <div class='tile_link_name'>U.S. 2025 Summer Analyst Investment Banking Program Lazard Undergraduate Fellowship for Leadership in Diversity, Equity and Inclusion</div>
-                                            <div class='tile_link_for_add_only'>https://lazard-careers.tal.net/vx/lang-en-GB/mobile-0/appcentre-1/brand-4/xf-94f5afc2db11/candidate/so/pm/1/pl/2/opp/1674-U-S-2025-Summer-Analyst-Investment-Banking-Program-Lazard-Undergraduate-Fellowship-for-Leadership-in-Diversity-Equity-and-Inclusion/en-GB</div>
-                                            <div class='tile_location_date'>
-                                                <div class='tile_location'>ALL</div>
-                                            <div class='tile_date'>TBD</div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
+                            
                         </div>
                     </div>
                     <div class="section_cont other_section_cont">

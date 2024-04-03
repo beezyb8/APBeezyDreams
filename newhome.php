@@ -44,7 +44,7 @@
     <div class="biggest_cont">
         <div class="slogan_mission_cont">
             <p class="slogan">Recruiting Made Simple</p>
-            <p class="mission">We strive to ease stress and anxiety college students experience while recruiting for internships</p>
+            <p class="mission">We strive to ease the stress and anxiety college students experience while recruiting for internships</p>
             <img src="../images/logos/oursk.jpg" alt="MLU logo" class="body_img">
         </div>
         <div class="target_container">
